@@ -6,6 +6,7 @@ import java.io.FileReader;
 import java.io.Reader;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Scanner;
 
 public class InterviewQuestions {
 
@@ -16,7 +17,28 @@ public class InterviewQuestions {
 		
 		testReverseString();
 		testReadFileAndMakeMap();
+		scannerExample();
 
+	}
+
+	private static void scannerExample() {
+		// TODO Auto-generated method stub
+		
+		String input = "The world will end today -- not!";
+		//String input = "The|world|will|end|today|not!";
+		
+		Scanner lexer = new Scanner(input);
+		while(lexer.hasNext()) {
+			System.out.println("Next Imput : " + lexer.next());
+		}
+		
+		//Example of reading integers from the Keyboard
+		System.out.println("----------- Going to read integers from KeyBoard ---------");
+		Scanner lexer2 = new Scanner(System.in);
+		while(lexer2.hasNextInt()) {
+			System.out.println("Next Integer : " + lexer2.nextInt());
+		}
+		
 	}
 
 	private static void testReadFileAndMakeMap() {
