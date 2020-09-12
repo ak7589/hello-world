@@ -4,9 +4,12 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.Reader;
+import java.util.Collection;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
 import java.util.Scanner;
+import java.util.Set;
 
 public class InterviewQuestions {
 
@@ -84,6 +87,33 @@ public class InterviewQuestions {
 			wordMap.forEach((k,v) -> {
 				System.out.println("Key : " +k + " : Value : " +v);
 			});
+			
+			//Demo of creating a collection from the different values present in the map
+			//Start
+			Collection<Integer> intCollection = wordMap.values();
+			
+			//Define a HashSet to know unique values present in the HashSet
+			Set<Integer> intSet = new HashSet<>();
+			
+			System.out.println("Printing intCollection Start ---");
+			intCollection.forEach((s) -> {
+				System.out.println(s);
+				intSet.add(s);
+			});
+			System.out.println("Printing intCollection End ---");
+			
+			System.out.println("Printing unique values from Set -- Start");
+			//Below Java8 for loop is working. Commenting is done, Just to test
+			//advanced java for loop
+			/*
+			 * intSet.forEach((s) -> { System.out.println(s); });
+			 */
+			//Printing using normal for loop
+			for(Integer tmp : intSet) {
+				System.out.println(tmp);
+			}
+			System.out.println("Printing unique values from Set -- End");
+			//End
 			
 		}catch(Exception e) {
 			
