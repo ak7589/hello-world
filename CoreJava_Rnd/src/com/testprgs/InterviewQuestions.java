@@ -12,7 +12,7 @@ public class InterviewQuestions {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		System.out.println("Hi Amit, Welcome to core Java...");
+		System.out.println("Hi Amit, Welcome for Core Java Test Preparation...");
 		
 		testReverseString();
 		testReadFileAndMakeMap();
