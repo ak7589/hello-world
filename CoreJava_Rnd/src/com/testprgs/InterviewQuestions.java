@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.Reader;
+import java.util.Arrays;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -18,10 +19,135 @@ public class InterviewQuestions {
 		
 		System.out.println("Hi Amit, Welcome for Core Java Test Preparation...");
 		
+		//We are commenting only those methods which uses Scanner as 
+		//those methods hangs for input to be given
+		
 		testReverseString();
 		testReadFileAndMakeMap();
-		scannerExample();
+		//scannerExample();
+		sortCityNames();
+		sortCityNames2();
+		//checkOddEvenNbr();
+		//linearSearchExample();
+		sortIntegerArray();
 
+	}
+
+	private static void sortIntegerArray() {
+		// TODO Auto-generated method stub
+		
+		
+	}
+
+	private static void linearSearchExample() {
+		// TODO Auto-generated method stub
+		
+		System.out.println("linearSearchExample Start---");
+		
+		Scanner readInts = new Scanner(System.in);
+		
+		System.out.println("Enter number of elements to be stored in array ---");
+		
+		int numOfElements = readInts.nextInt();
+		
+		System.out.println("No of Elements entered : " + numOfElements);
+		
+		int[] numArray = new int[numOfElements];
+		
+		//Populate array by reading inputs
+		for(int i=0; i < numOfElements ; i++) {
+			numArray[i] =  readInts.nextInt();
+		}
+		
+		System.out.println("Enter number to be searched ---");
+		int searchInt = readInts.nextInt();
+		
+		//Check in the for loop if numbers exists
+		boolean found = false;
+		for(int i=0; i < numOfElements ; i++) {
+			
+			if(searchInt == numArray[i]) {
+				System.out.println("Number : " + searchInt + " Found");
+				found = true;
+				break;
+			}
+		}
+		
+		if(!found) {
+			System.out.println("Number could not be  found...");
+		}
+		
+		System.out.println("linearSearchExample End---");
+		
+	}
+
+	private static void checkOddEvenNbr() {
+		// TODO Auto-generated method stub
+		
+		System.out.println("checkOddEvenNbr Start ---");
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		while(scanner.hasNextInt()) {
+			int number = scanner.nextInt();
+			
+			if ( (number % 2) == 0 )
+			{
+				System.out.println("Even Number ---");
+			}
+			else
+			{
+				System.out.println("ODD Number ---");
+			}
+			
+		}
+		
+		System.out.println("checkOddEvenNbr End ---");
+		
+	}
+
+	private static void sortCityNames2() {
+		// TODO Auto-generated method stub
+		
+		System.out.println("sortCityNames2 using Manual Start ---");
+		
+		String[] cityNames = {"Patna","Ahmedabad","Delhi","Mumbai","Goa"};
+		
+		//Sorting the strings
+		String temp;
+		int count = cityNames.length;
+        for (int i = 0; i < count; i++) 
+        {
+            for (int j = i + 1; j < count; j++) { 
+            	
+            	System.out.println("Comparing : " + cityNames[i] + " With : " +  cityNames[j]);
+            	
+                if (cityNames[i].compareTo(cityNames[j])>0) 
+                {
+                    temp = cityNames[i];
+                    cityNames[i] = cityNames[j];
+                    cityNames[j] = temp;
+                }
+            }
+        }
+		
+        System.out.println(Arrays.toString(cityNames));
+		System.out.println("sortCityNames2 using Manual End ---");
+	}
+
+	private static void sortCityNames() {
+		// TODO Auto-generated method stub
+		
+		System.out.println("sortCityNames using utility Start ---");
+		
+		String[] cityNames = {"Patna","Ahmedabad","Delhi","Mumbai","Goa"};
+		
+		Arrays.sort(cityNames);
+		
+		System.out.println(Arrays.toString(cityNames));
+		
+		System.out.println("sortCityNames using utility End ---");
+		
 	}
 
 	private static void scannerExample() {
