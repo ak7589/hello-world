@@ -1,5 +1,12 @@
 package com.testprgs;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.Reader;
+import java.util.HashMap;
+import java.util.Map;
+
 public class InterviewQuestions {
 
 	public static void main(String[] args) {
@@ -8,7 +15,58 @@ public class InterviewQuestions {
 		System.out.println("Hi Amit, Welcome to core Java...");
 		
 		testReverseString();
+		testReadFileAndMakeMap();
 
+	}
+
+	private static void testReadFileAndMakeMap() {
+		// TODO Auto-generated method stub
+		
+		String fieldDelimiter = " ";
+		Map<String,Integer> wordMap = new HashMap<>();
+		
+		File file = new File("ExtFiles/testfile1.txt");
+		
+		
+		try(Reader reader = new FileReader(file);
+				BufferedReader bufReader = new BufferedReader(reader);){
+			
+			String line = null;
+			int cnt = 0;
+			while((line = bufReader.readLine()) != null ) {
+				
+				//System.out.println("LINE CONTENT : " + line);
+				
+				String[] strArray = line.split(fieldDelimiter);
+				
+				for(String tmp : strArray) {
+					System.out.println("WORDS IN LINE : " + tmp);
+					
+					//Check if this word exists in Map
+					if((cnt = wordMap.getOrDefault(tmp,0)) == 0) {
+						//Then Put with no-of-count = 1
+						wordMap.put(tmp, 1);
+						
+					}
+					else {
+						//Get entry found, so get previous count and increment it
+						wordMap.replace(tmp, (cnt + 1)); 
+					}
+					
+				}
+				
+				
+			}
+			
+			//Print content of Map here
+			wordMap.forEach((k,v) -> {
+				System.out.println("Key : " +k + " : Value : " +v);
+			});
+			
+		}catch(Exception e) {
+			
+		}
+		
 	}
 
 	private static void testReverseString() {
