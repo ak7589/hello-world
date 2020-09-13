@@ -13,6 +13,30 @@ import java.util.Scanner;
 import java.util.Set;
 
 public class InterviewQuestions {
+	
+	public int sum (int a, int b) {
+		
+		int sum =0;
+		sum = a + b;
+		
+		return sum;
+	}
+	
+	public int sum (int a, int b, int c) {
+		
+		int sum =0;
+		sum = a + b +c;
+		
+		return sum;
+	}
+	
+	public double sum (int a, int b, int c, int d) {
+		
+		int sum =0;
+		sum = a + b +c + d;
+		
+		return 16.99;
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -32,6 +56,7 @@ public class InterviewQuestions {
 		sortIntegerArray();
 		binarySearchExample();
 		extendArrayExampleWithoutChangingName();
+		
 
 	}
 
