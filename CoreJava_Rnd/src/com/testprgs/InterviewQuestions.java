@@ -30,11 +30,98 @@ public class InterviewQuestions {
 		//checkOddEvenNbr();
 		//linearSearchExample();
 		sortIntegerArray();
+		binarySearchExample();
+		extendArrayExampleWithoutChangingName();
 
+	}
+
+	private static void extendArrayExampleWithoutChangingName() {
+		// TODO Auto-generated method stub
+		
+		System.out.println("extendArrayExampleWithoutChangingName Start ---");
+		
+		int[] intArray = new int[5];
+		
+		intArray[0] = 12;
+		intArray[1] = 23;
+		intArray[2] = 22;
+		intArray[3] = 34;
+		intArray[4] = 45;		
+		
+		System.out.println(Arrays.toString(intArray));
+		
+		//working intArray = InterviewQuestions.copyOfArray(intArray, 3);
+		intArray = InterviewQuestions.copyOfArray2(intArray, 3);
+		
+		System.out.println("After returning from copyOfArray method ---");
+		System.out.println("New length of array : " + intArray.length);
+		System.out.println("Content of Array : ");
+		System.out.println(Arrays.toString(intArray));
+		
+		System.out.println("extendArrayExampleWithoutChangingName End ---");
+		
+	}
+	
+	public static int[] copyOfArray(int[] array, int increaseAmt) {
+		
+		int[] newArray = new int[array.length + increaseAmt];
+		
+		System.arraycopy(array, 0, newArray, 0, array.length);
+		
+		return newArray;
+		
+	}
+	
+	public static int[] copyOfArray2(int[] array, int increaseAmt) {
+		
+		int[] newArray = new int[array.length + increaseAmt];
+		
+		for (int i=0; i < array.length; i++) {
+			newArray[i] = array[i];
+		}
+		
+		//System.arraycopy(array, 0, newArray, 0, array.length);
+		
+		return newArray;
+		
+	}
+
+	private static void binarySearchExample() {
+		// TODO Auto-generated method stub
+		System.out.println("binarySearchExample Start ---");
+		int[] intArray = {10,34,2,3,57,1};
+		
+		//First sort the array
+		Arrays.sort(intArray);
+		
+		System.out.println("After sorting array is : " + Arrays.toString(intArray));
+		
+		System.out.println(Arrays.binarySearch(intArray, 34));
+		System.out.println("binarySearchExample End ---");
+				
 	}
 
 	private static void sortIntegerArray() {
 		// TODO Auto-generated method stub
+		
+		int[] intArray = {10,34,2,3,57,1};
+		
+		int temp =0;
+		
+		for(int i =0; i < intArray.length; i++) {
+			
+			for(int j = i+1; j < intArray.length; j++ ) {
+				
+				if( intArray[i] > intArray[j]) {
+					temp = intArray[i];
+					intArray[i] = intArray[j];
+					intArray[j] = temp;
+				}
+			}
+		}
+		
+		System.out.println("Sorted Integer :::  ");
+		System.out.println(Arrays.toString(intArray));
 		
 		
 	}
