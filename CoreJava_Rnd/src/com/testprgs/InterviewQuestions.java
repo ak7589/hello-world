@@ -4,21 +4,262 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.Reader;
+import java.util.Arrays;
+import java.util.Collection;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
 import java.util.Scanner;
+import java.util.Set;
 
 public class InterviewQuestions {
+	
+	public int sum (int a, int b) {
+		
+		int sum =0;
+		sum = a + b;
+		
+		return sum;
+	}
+	
+	public int sum (int a, int b, int c) {
+		
+		int sum =0;
+		sum = a + b +c;
+		
+		return sum;
+	}
+	
+	public double sum (int a, int b, int c, int d) {
+		
+		int sum =0;
+		sum = a + b +c + d;
+		
+		return 16.99;
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
 		System.out.println("Hi Amit, Welcome for Core Java Test Preparation...");
 		
+		//We are commenting only those methods which uses Scanner as 
+		//those methods hangs for input to be given
+		
 		testReverseString();
 		testReadFileAndMakeMap();
-		scannerExample();
+		//scannerExample();
+		sortCityNames();
+		sortCityNames2();
+		//checkOddEvenNbr();
+		//linearSearchExample();
+		sortIntegerArray();
+		binarySearchExample();
+		extendArrayExampleWithoutChangingName();
+		
 
+	}
+
+	private static void extendArrayExampleWithoutChangingName() {
+		// TODO Auto-generated method stub
+		
+		System.out.println("extendArrayExampleWithoutChangingName Start ---");
+		
+		int[] intArray = new int[5];
+		
+		intArray[0] = 12;
+		intArray[1] = 23;
+		intArray[2] = 22;
+		intArray[3] = 34;
+		intArray[4] = 45;		
+		
+		System.out.println(Arrays.toString(intArray));
+		
+		//working intArray = InterviewQuestions.copyOfArray(intArray, 3);
+		intArray = InterviewQuestions.copyOfArray2(intArray, 3);
+		
+		System.out.println("After returning from copyOfArray method ---");
+		System.out.println("New length of array : " + intArray.length);
+		System.out.println("Content of Array : ");
+		System.out.println(Arrays.toString(intArray));
+		
+		System.out.println("extendArrayExampleWithoutChangingName End ---");
+		
+	}
+	
+	public static int[] copyOfArray(int[] array, int increaseAmt) {
+		
+		int[] newArray = new int[array.length + increaseAmt];
+		
+		System.arraycopy(array, 0, newArray, 0, array.length);
+		
+		return newArray;
+		
+	}
+	
+	public static int[] copyOfArray2(int[] array, int increaseAmt) {
+		
+		int[] newArray = new int[array.length + increaseAmt];
+		
+		for (int i=0; i < array.length; i++) {
+			newArray[i] = array[i];
+		}
+		
+		//System.arraycopy(array, 0, newArray, 0, array.length);
+		
+		return newArray;
+		
+	}
+
+	private static void binarySearchExample() {
+		// TODO Auto-generated method stub
+		System.out.println("binarySearchExample Start ---");
+		int[] intArray = {10,34,2,3,57,1};
+		
+		//First sort the array
+		Arrays.sort(intArray);
+		
+		System.out.println("After sorting array is : " + Arrays.toString(intArray));
+		
+		System.out.println(Arrays.binarySearch(intArray, 34));
+		System.out.println("binarySearchExample End ---");
+				
+	}
+
+	private static void sortIntegerArray() {
+		// TODO Auto-generated method stub
+		
+		int[] intArray = {10,34,2,3,57,1};
+		
+		int temp =0;
+		
+		for(int i =0; i < intArray.length; i++) {
+			
+			for(int j = i+1; j < intArray.length; j++ ) {
+				
+				if( intArray[i] > intArray[j]) {
+					temp = intArray[i];
+					intArray[i] = intArray[j];
+					intArray[j] = temp;
+				}
+			}
+		}
+		
+		System.out.println("Sorted Integer :::  ");
+		System.out.println(Arrays.toString(intArray));
+		
+		
+	}
+
+	private static void linearSearchExample() {
+		// TODO Auto-generated method stub
+		
+		System.out.println("linearSearchExample Start---");
+		
+		Scanner readInts = new Scanner(System.in);
+		
+		System.out.println("Enter number of elements to be stored in array ---");
+		
+		int numOfElements = readInts.nextInt();
+		
+		System.out.println("No of Elements entered : " + numOfElements);
+		
+		int[] numArray = new int[numOfElements];
+		
+		//Populate array by reading inputs
+		for(int i=0; i < numOfElements ; i++) {
+			numArray[i] =  readInts.nextInt();
+		}
+		
+		System.out.println("Enter number to be searched ---");
+		int searchInt = readInts.nextInt();
+		
+		//Check in the for loop if numbers exists
+		boolean found = false;
+		for(int i=0; i < numOfElements ; i++) {
+			
+			if(searchInt == numArray[i]) {
+				System.out.println("Number : " + searchInt + " Found");
+				found = true;
+				break;
+			}
+		}
+		
+		if(!found) {
+			System.out.println("Number could not be  found...");
+		}
+		
+		System.out.println("linearSearchExample End---");
+		
+	}
+
+	private static void checkOddEvenNbr() {
+		// TODO Auto-generated method stub
+		
+		System.out.println("checkOddEvenNbr Start ---");
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		while(scanner.hasNextInt()) {
+			int number = scanner.nextInt();
+			
+			if ( (number % 2) == 0 )
+			{
+				System.out.println("Even Number ---");
+			}
+			else
+			{
+				System.out.println("ODD Number ---");
+			}
+			
+		}
+		
+		System.out.println("checkOddEvenNbr End ---");
+		
+	}
+
+	private static void sortCityNames2() {
+		// TODO Auto-generated method stub
+		
+		System.out.println("sortCityNames2 using Manual Start ---");
+		
+		String[] cityNames = {"Patna","Ahmedabad","Delhi","Mumbai","Goa"};
+		
+		//Sorting the strings
+		String temp;
+		int count = cityNames.length;
+        for (int i = 0; i < count; i++) 
+        {
+            for (int j = i + 1; j < count; j++) { 
+            	
+            	System.out.println("Comparing : " + cityNames[i] + " With : " +  cityNames[j]);
+            	
+                if (cityNames[i].compareTo(cityNames[j])>0) 
+                {
+                    temp = cityNames[i];
+                    cityNames[i] = cityNames[j];
+                    cityNames[j] = temp;
+                }
+            }
+        }
+		
+        System.out.println(Arrays.toString(cityNames));
+		System.out.println("sortCityNames2 using Manual End ---");
+	}
+
+	private static void sortCityNames() {
+		// TODO Auto-generated method stub
+		
+		System.out.println("sortCityNames using utility Start ---");
+		
+		String[] cityNames = {"Patna","Ahmedabad","Delhi","Mumbai","Goa"};
+		
+		Arrays.sort(cityNames);
+		
+		System.out.println(Arrays.toString(cityNames));
+		
+		System.out.println("sortCityNames using utility End ---");
+		
 	}
 
 	private static void scannerExample() {
@@ -84,6 +325,33 @@ public class InterviewQuestions {
 			wordMap.forEach((k,v) -> {
 				System.out.println("Key : " +k + " : Value : " +v);
 			});
+			
+			//Demo of creating a collection from the different values present in the map
+			//Start
+			Collection<Integer> intCollection = wordMap.values();
+			
+			//Define a HashSet to know unique values present in the HashSet
+			Set<Integer> intSet = new HashSet<>();
+			
+			System.out.println("Printing intCollection Start ---");
+			intCollection.forEach((s) -> {
+				System.out.println(s);
+				intSet.add(s);
+			});
+			System.out.println("Printing intCollection End ---");
+			
+			System.out.println("Printing unique values from Set -- Start");
+			//Below Java8 for loop is working. Commenting is done, Just to test
+			//advanced java for loop
+			/*
+			 * intSet.forEach((s) -> { System.out.println(s); });
+			 */
+			//Printing using normal for loop
+			for(Integer tmp : intSet) {
+				System.out.println(tmp);
+			}
+			System.out.println("Printing unique values from Set -- End");
+			//End
 			
 		}catch(Exception e) {
 			
