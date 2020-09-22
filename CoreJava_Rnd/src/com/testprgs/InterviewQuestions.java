@@ -57,7 +57,96 @@ public class InterviewQuestions {
 		binarySearchExample();
 		extendArrayExampleWithoutChangingName();
 		
+		int[] array = {12,23,8,15,17};
+		//int[] array = {12,12};
+		
+		try {
+			int num = findSecondLargestInArray(array);
+			System.out.println("2nd Largest number is : " + num);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			
+			System.out.println(("Exception raised : " + e));
+			//e.printStackTrace();
+		}
+		
 
+	}
+
+	private static int findSecondLargestInArray(int[] array) throws Exception {
+		// TODO Auto-generated method stub
+		
+		System.out.println("findSecondLargestInArray Start ---");
+		int first = 0;
+		int second = 0;
+		int result =0;
+		
+				
+		
+		int len = array.length;
+		
+		if(len < 2) {
+			throw new Exception("Cannot determine, Only one element in array... ");
+		}
+		else if (len == 2) {
+			
+			first = array[0];
+			second = array[1];
+			
+			if(first < second) {
+				result = first;
+			}
+			else if (first > second) {
+				result = second;
+			}
+			else {
+				throw new Exception("Both numbers same... ");
+			}
+		}
+		
+		else {
+			
+			//Normal if-else
+			if(array[0] < array[1]) {
+				first = array[1];
+				second = array[0];
+			}
+			else if(array[0] > array[1]) {
+				first = array[0];
+				second = array[1];
+			}
+			else {
+				first = array[0];
+				second = array[1];
+			}
+			
+			for(int i = 2; i < array.length; i++) {
+				
+				if(first < array[i]) {
+					second = first;
+					first = array[i];
+				}
+				else {
+					if (second < array[i]) {
+						second = array[i];
+					}
+				}
+				
+			}
+			
+			if(first > second) {
+				result = second;
+			}
+			else {
+				throw new Exception("Error : Could not determine second largest number...");
+			}
+			
+		}
+		
+		
+		System.out.println("findSecondLargestInArray End ---");
+		
+		return result;
 	}
 
 	private static void extendArrayExampleWithoutChangingName() {
