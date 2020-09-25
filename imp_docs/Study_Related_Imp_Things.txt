@@ -690,3 +690,15 @@ https://www.javainuse.com/spring/spring-boot-content-negotiation
 https://www.javainuse.com/spring/spring-AOP-interview-quesions
 
 //JUNIT learning path - https://app.pluralsight.com/paths/skill/unit-testing-in-java
+
+///////////////////////////////////////////////////////////25092020 START ////////////////////////////////////////////////////////////////
+
+Important study links
+
+//JUNIT learning path on the pluralsight
+https://app.pluralsight.com/paths/skill/unit-testing-in-java
+
+//Junit5 website for more details 
+https://junit.org/junit5
+
+///////////////////////////////////////////////////////////25092020 END ////////////////////////////////////////////////////////////////
