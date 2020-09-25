@@ -1,0 +1,572 @@
+Track consignment no - Consignment No: 2343888891 Of Amma to Laheriasarai (Chote Mama)
+										 A1050722
+
+08862808176 - laheriasarai 
+
+Track Courier On - www.trackon.in
+
+//Follow this bllog
+
+https://blog.imaginea.com/
+
+Kesha Williams is a great author at PluralSight
+
+
+On Java8 read following :- 
+
+1. optional  - used to avoid null checkd
+2. default methods
+3. lambdas
+
+98253 - 51702 - Dj Baroda
+
+//Temp Story 1
+
+It was a rainy season and I had gone to my maternal grandfather house. My cousins had also come there and we were staying together. In the evening there was a movie called "Makdee"
+coming on TV and we saw that movie together. That film was a story of fight between a little girl and a witch and we really got scared after watching that movie.
+
+After watching the movie and completing dinner we went for sleep. After sometime i heard sound of thunder from distance  which was  getting closer by each passing minute. I woke up and saw that my cousins were not sleeping in the spare beds in my room. I got sacred as i was alone in the room and suddenly horror scenes of movie i watched flashed in my mind. Suddenly
+there was a power cut and it was dark everywhere. Suddenly there was a lightning flash and the associated thunder, and in that light i felt as i have seen witch in front of me. I got
+very scared and ran towards gate of the room to go to my mother's room. I accidentally bumped into the wall. This made me feel dizzy. I got up again and ran towards my mother's
+room. When i reached there i saw everyone is sleeping and also found my cousin sleeping there. Later he told me that he came to this room because he was getting scared because of thunderous noise.
+
+That was my most frieghting experience.
+
+
+It was summer vacation and one day there was no power in my house because of transformer of my society was not working because of some problem. I was getting very bored as i was not 
+able to watch TV or play any video game. After sometime i remembered that i received few gifts from my friends on my birthday which was not yet opened. I started opening those gifts
+along with my brother. I found that there is a caramboard, ludo and a business game in the gifts given by my friend. We stared palying caramboard first. I had played caram earlier but that board was big. This caram board was of little smaller so we were able to score more easily. We enjoyed a lot palying caram board. After sometime we got bored and we thoght to play some other game. Then we started playing business game. This game was totally new to me as i was playing it for first time. We read the game manual first and then we understood how to play business game. We enjoyed palying business game very much. Most funny part of the game was about returning change. We has to do addition and substraction real time which was a fun.
+
+My github passwd - Begusarai@987
+username - ak7589
+email - asinha.kumar@gmail.com
+
+
+80877 67679
+
+http://www.quakestories.govt.nz/763/story/
+http://www.quakestories.govt.nz/763/story/
+https://www.huffpost.com/entry/my-story-from-the-earthqu_b_426392
+
+08862 80 8176 dbg trackon
+
+2343888891
+Consignment No: 2343888891
+
+//Earthquake story
+
+It was a summer vacation and I had gone to my maternal grandfather house. My cousins had also come there and we were staying together. We played indoor games like chess till late
+night and then sleep.
+
+dbg track no phone no - 
+Strategy pattern example in Java
+
+	1. There is a CreditCard class which uses  Strategy pattern
+	
+	What is cyclometic-complexity ?
+	
+	palak 4-5 leaves
+	pudina - , dhaniya, kadi patta
+	dalchini
+	kali mirch
+	sendha namak
+	nimbu
+	1 glass water
+	
+	make a super smoothy - 
+	
+	
+	haldi
+	tulsi powder
+	mehi ka powder
+	
+	Below are super greens
+	Spirulina
+	Moringa
+	Wheatgrass
+	Barley grass
+	
+	
+	SEVERE: Servlet [dispatcher] in web application [/spring-mvc-demo] threw load() exception
+java.lang.UnsupportedClassVersionError: org/springframework/web/servlet/DispatcherServlet : Unsupported major.minor version 52.0 (unable to load class org.springframework.web.servlet.DispatcherServlet)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:3255)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:1420)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1924)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1798)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClass(DefaultInstanceManager.java:536)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClassMaybePrivileged(DefaultInstanceManager.java:518)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:148)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1125)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1066)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5449)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5747)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1707)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1697)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Nov 27, 2019 4:39:41 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Nov 27, 2019 4:39:41 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Nov 27, 2019 4:39:41 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1442 ms
+
+java.lang.UnsupportedClassVersionError: org/springframework/web/servlet/DispatcherServlet : Unsupported major.minor version 52.0 (unable to load class org.springframework.web.servlet.DispatcherServlet)
+
+//below password is for SQL database
+
+root password - begusarai
+hbstudent passwd - hbstudent
+new user created for the CRM application is springstudent . Password is also springstudent
+
+//Ran successfully below URL
+
+http://localhost:8080/web-customer-tracker/TestDbServlet
+
+
+//Dr Suresh Mehta No 
+
+020 - 2766 2085
+
+937100 4040
+Dr Suresh Mehta - earlier office was in B G Corner.. now ask for the new address
+
+pimpri - sukhwani campus, ambedkar chowk
+8 to 9:30 am
+
+3:30 to 5:30 pm on the BG Corner Nigdi
+
+//Chad darby application url
+http://localhost:8080/web-customer-tracker/customer/list
+
+Jenkins, From Zero To Hero: Become a DevOps Jenkins Master By Created by Ricardo Andre Gonzalez Gomez
+HDFC net banking
+117 - 881 - 381
+Passwd - ak7589@123
+
+
+Quick heal license - Code 1: 7C691-1W229-1838C-1A0F0
+Code 2: D8817-6S01F-4720B-29310
+
+D88176S01F4720B29310
+
+Coupon code - SUTJ08
+
+magadoll - 12 pm
+meftal p - 4:30 pm
+
+calpol - 9:20 pm
+
+meftal p  - 10:53 pm
+
+calpol - 6:20 am
+
+calpol - 1:50 pm
+
+calpol - 8:30 pm
+
+
+jio no - 98340 57762 Jio - 329/
+
+isea - 744 783 0874 (recharge - 379/)
+
+Call quick heal renew team - for license upgrade
+For any query please feel free to contact on 9272202525.
+
+Renew this license - D88176S01F4720B29310 or D8817-6S01F-4720B-29310
+
+coupon code - SUTJ08
+
+MH1424-04-B-033
+
+MH1424-04-A-015
+aa
+
+renew this now - Code 1: 7C691-1W229-1838C-1A0F0
+
+//ICICI Check book Blue Dart courier Tracking
+
+Waybill No
+37200731120
+
+Boy and arrow is in 874 on amazon before sale
+Toyshine Mid-sized Foosball, Mini Football, Table Soccer Game - 1500 on amazon, before sale
+
+
+//This is for Linux running on VMWARE machine
+
+root password - 123
+
+//Look at the below photos and decide which one to take print
+C:\2019_V2\Redmi_bk\090719\photos_v
+
+HDFC Customer Care - 
+Please keep your Card number and associated PIN or Customer Identification Number (Cust ID) and Telephone Identification Number (TIN) ready to access your account.
+
+HDFC Customer Care Pune - 020 61606161
+
+117 - 881 - 381
+
+35064 / rupees is total for going and coming 
+
+Spring cloud course git url 
+https://github.com/in28minutes/spring-microservices
+
+/Normal workspace for Spring Projects
+C:\dev\workspace
+
+Apache server 8.5 - 
+C:\tools\apache-tomcat-8.5.43
+jdk1.8.0_102
+
+Tomcat 7
+C:\tools\apache-tomcat-7.0.94
+jdk1.8.0_102
+
+Installed JRE :- jdk1.7.80 - c:]program files(x86)\Java\jdk1.7.80
+jdk1.8.102(default) - c:]program files(x86)\Java\jdk1.8.102
+jre1.8.0_221 - c:]program files\Java\jre1.8.0_221
+
+Oracle DB
+system / oracle
+plsqldev / plsqldev
+
+
+UAN No - 100080421339 / Newworld@123
+
+Hi,
+
+This is Amit Kumar . My last working day at Capgemini was 28th September, 2018.
+
+Request you to verify  my PAN number  on "Employee PF portal" .
+
+Please find my PAN NO attached with the mail for your reference. Please also find screen shot from "Employee PF Portal" which is showing my PAN number as unverified.
+
+Request you to do the needful.
+
+Regards,
+Amit Kumar
+Employee ID - 82327_FS
+
+-----------------------------------------------------------------------------------------
+
+Hi,
+
+This is Amit Kumar . My last working day at Capgemini was 28th September, 2018.
+
+Request you to verify  my PAN number  on "Employee PF portal" .
+
+Please find my PAN NO attached with the mail for your reference. Please also find screen shot from "Employee PF Portal" which is showing my PAN number as unverified.
+
+Request you to do the needful.
+
+Regards,
+Amit Kumar
+Employee ID - 82327_FS
+
+Sunject - Please verify my PAN Number on Employee PF Portal - Employee ID - 82327_FS
+
+info@excelityglobal.com
+
+PF - Father name correction - Employee ID - 82327_FS
+
+Subject - PF - Please update my bank account number - Employee ID - 82327_FS
+
+//Mail to send
+Hi,
+
+This is Amit Kumar . My last working day at Capgemini was 28th September, 2018.
+
+I have submitted KYC request to update my bank account number on employee PF portal. My bank account number on PF portal is 501509100. However my complete bank account number
+is 000501509100. So starting 3 zeroes are not present in the bank account number present at PF portal. I have submiited KYC request to update bank account number on PF portal.
+Please find screen shot of cheque attached with the email for your reference. 
+ 
+
+Request you to do the needful.
+
+Regards,
+Amit Kumar
+Employee ID - 82327_FS
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Hi,
+
+This is Amit Kumar . My last working day at Capgemini was 28th September, 2018.
+
+Request you to update my father's name on "Employee PF portal" as "ARUN KUMAR SINHA". Currently my father name displayed  is "ARUN KUMAR" and because of that my PAN is not getting verified.
+
+Please find my PAN NO attached with the mail for your reference, which contains correct name of my father.
+
+Regards,
+Amit Kumar
+Employee ID - 82327_FS
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Subject - PF - Please update my bank account number - Employee ID - 82327_FS
+info@excelityglobal.com
+
+
+
+Hi,
+
+This is Amit Kumar . My last working day at Capgemini was 28th September, 2018.
+
+Request you to update my bank account number on employee PF portal. My bank account number is 000501509100 ,  however bank account number on PF portal is 501509100 .
+So starting 3 zeroes are not present in the bank account number present at PF portal.
+
+I have submitted KYC request to update bank account number on PF portal. Request you to approve this KYC request.
+
+Please also find screen shot of cheque and "KYC request" attached  with the email for your reference. 
+
+Request you to do the needful.
+
+Regards,
+Amit Kumar
+Employee ID - 82327_FS
+
+//By this course
+Data Structures & Algorithms ! - Created byDS Guy
+
+//On pluralsight read this course - 
+Implementing and understanding data structures in Java - By Dan Bunker
+
+Tanay medicine
+Date - 28022020
+calpol - 11:15 am
+
+Mihir medicine - 
+date - 05032020
+calpol - 4:55 pm
+
+//Fill 15-G form for PF online withdrawl
+
+//Spped test ookla - 
+Download - 51.82 Mbps, Upload - 50.38 Mbps
+
+yoga poster to do everyday - 
+https://www.workandmoney.com/s/10-minute-yoga-routine-3a7e2b5bfee54695?utm_campaign=10minuteyoga-c1f85489d8614520&utm_source=tab&utm_medium=cpc&utm_term=indiatoday-indiatoday
+
+//Mount Kailash on Google Earth 
+https://earth.google.com/web/@30.8610239,81.46139485,4713.07297032a,239741.86081655d,35y,-37.23736091h,46.49314905t,-0r/data=ClAaThJICiUweDM5YTU5MGNhMThlYmZiNmI6MHhkZWNlMjI2ZWYyZjE4N2ZhGeF6FK5HET9AIecKpeX2U1RAKg1Nb3VudCBLYWlsYXNoGAEgAQ
+
+//Saveed youtube link for Tanay/Mihir
+https://www.youtube.com/watch?v=K8e00lWyM6M
+
+https://ktmmovies.co/movies/tanhaji-torrent-magnet-download-hd-20220/
+
+Electricity bill pay details - 
+
+Consumer No - 160231524816
+BU - 4856 - Magarpatta township
+Create maha electricity login - ak7589 / Newworld@123
+
+//Registered at tinkle with below details
+asinha.kumar@gmail.com
+9881104448
+
+//Online order from PharmEasy
+//ordered medicine from PharmEasy
+https://pharmeasy.in/upload-prescription?src=cart
+https://pharmeasy.in/account/orders/0/18505826
+
+icici credit card
+4375 5104 6055 4006
+02/22
+273
+
+HDFC net banking
+117 - 881 - 381
+Passwd - ak7589@123
+
+Wishing you and your family Happy Akshaya Tritiya
+
+97629 03943 - Sunit Pagare Miss
+
+75886 24049 - kanchan Gosavi Miss
+
+
+WordPress - for creating website
+bluehost - hosting...
+
+//D-Day movie youtube link
+
+//Camera Link
+https://webcamsnapshot.net/
+
+what is re-tweet ?
+what is likes on tweet ?
+Check twitter ?
+
+Hello Sendhil Sir,
+
+As per our conversation, kindly find resume of "Shobhit Shankar" attached in the mail below for Business Analyst role.
+
+Regards,
+Amit Kumar
+Mobile - 9881104448
+
+shobhit.shankar@gmail.com
+
+sendhil.reddy@capgemini.com
+
+//Below question is regarding EPFO claim
+Why your toll-free number is not accessible?
+Services will be resumed shortly. Pending resumption of services, you may contact us on our Facebook and Twitter handle "socialepfo". You can raise your grievances at epfigms.gov.in.
+
+Read more at:
+https://economictimes.indiatimes.com/wealth/invest/epf-withdrawal-due-to-coronavirus-20-questions-answered-by-epfo/articleshow/75695294.cms?utm_source=contentofinterest&utm_medium=text&utm_campaign=cppst
+
+
+1. Tips to manage fear and anxiety during troubled times
+
+
+amitks_76@rediffmail.com / May@2020 - this is new password on skype
+bhartis0478@gmail.com / Darbhangapune@123 - this is new passwd on skypes
+
+How to raise PF grievance ?
+
+I have applied for PF final settlement on 7th March 2020, however i have not received money yet. Please look into this matter.
+
+
+I have applied for PF final settlement on 7th March 2020, however pf claim status is still under "in progress" . Please look into this matter.
+
+
+I have applied for PF final settlement on 7th March 2020, however pf claim status is still under "in progress" and not received my money yet. Please look into this matter.
+
+ cgretiralsservices@excelityglobal.com
+ 
+Hi,
+
+This is Amit Kumar . My last working day at Capgemini was 28th September, 2018.
+
+Request you to update my bank account number on employee PF portal. My bank account number is 000501509100 ,  however bank account number on PF portal is 501509100 .
+So starting 3 zeroes are not present in the bank account number present at PF portal.
+
+I have submitted KYC request to update bank account number on PF portal. Request you to approve KYC request.
+
+Please also find screen shot of cheque and "KYC request" attached  with the email for your reference.
+
+Request you to do the needful.
+
+Regards,
+Amit Kumar
+Employee ID - 82327_FS
+
+
+Hi,
+
+This is Amit Kumar . My last working day at Capgemini was 28th September, 2018.
+
+I had submitted pf withdrawl form online on "Employees Provident Fund" website, on 7th March 2020. More than 80 days passed till now but i have not received
+PF amount yet. Request you to kindly look into this matter.
+
+Please also find PF withdrawl receipt generated online attached with this mail.
+
+Regards,
+Amit Kumar
+Employee ID - 82327_FS
+
+
+
+Request you to update my bank account number on employee PF portal. My bank account number is 000501509100 ,  however bank account number on PF portal is 501509100 .
+So starting 3 zeroes are not present in the bank account number present at PF portal.
+
+I have submitted KYC request to update bank account number on PF portal. Request you to approve KYC request.
+
+Please also find screen shot of cheque and "KYC request" attached  with the email for your reference.
+
+Request you to do the needful.
+
+Regards,
+Amit Kumar
+Employee ID - 82327_FS
+
+///////////////////////////////////////////////
+
+Samsung service request no - 430-370-9972
+
+password of root and amit is changed to - topgun on the dell laptop unix practice
+
+
+Hi,
+
+Request you to kindly provide some update on this issue.
+
+
+Regards,
+Amit Kumar
+Employee ID - 82327_FS
+
+
+ak7589160310@gmail.com
+Passwd - Done@123
+DOB - 03/01/1977
+
+SBI Online FD - https://www.youtube.com/watch?v=ljKQaH2H2kI
+
+SBI online banking page - https://retail.onlinesbi.com/retail/logout.htm
+
+//Ramdev Health videos
+https://www.youtube.com/watch?v=pLdZI6tboJc
+
+https://www.youtube.com/watch?v=V3ddJ7xmJ8o
+
+kapalbhati
+mandook aasan
+kheera, karela, tomato ka juice
+
+Jai Prakash S
+
+Probable people in the party
+Mumbai Police
+Aditya Thackray
+Sandip SSingh
+Sooraj Pancholi
+Arbaz Khan 
+Siddhant Pitani
+Mahesh Bhatt
+
+
+amitgunjan@123 - id of hdfc bank
+@AmitKum81173931 - twitter id 
+
+Wesetside - Id - asinha.kumar@gmail.com / Newworld@123 -- https://www.tatacliq.com/
+
+Look at this youtube link - https://www.youtube.com/watch?v=r4f7hg-QJWc&feature=youtu.be
+
+IPL MatchHighLights
+https://www.iplt20.com/video/184578
+
+
+Samsung service request no - 430-370-9972
+
+track repair url - https://www.samsung.com/in/support/your-service/track-repair
+
+Fridge capacity is 260 Litre
+
+1Kg Maida
+500 gm rawa
+Narial Churn - 200gn
+Sugar - 2 Kg
+Puja Batti
+Chota Ilichi - 100 gm
+Refined - 2 litre
+mutton masala
+Akhrot
+
+rori (Bhagwan ka teeka), kaisali - 12 no
+Daliya - 4 packet
+
+-----------------------------------------------------------------------
+
+sachin kamte - 98815 41362
+
+ratnakar kumbhar - 9145451942
+
+751726 3840 - parmeshwar shende

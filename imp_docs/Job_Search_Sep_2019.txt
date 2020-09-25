@@ -1,0 +1,549 @@
+WebSiite Link :- 
+https://www.monsterindia.com/job/java-engineer-c-dot-systems-private-limited-pune-1099781?searchId=a44bdfbb-cc85-4700-b5d0-89ebaf0271cd
+
+
+Responsibilities
+•Write well designed, clean, efficient code backed by unit tests
+•Develop scalable, lasting technology solutions
+•Abide by coding standards and guidelines
+•Build for security and performance
+•Work well in an Agile/Scrum environment (done the right way)
+•Maintain a high standard of work quality and encourage others to do the same
+•Energetic individual with enthusiasm to learn new tools, technologies & processes
+Must-Have
+•Ability to write high quality, bug free, clean java code
+•Experience writing RESTful APIs
+•5+ years experience leading Java based development projects
+•Bachelor’s degree in computer science or related field required; master’s degree is a plus
+•SQL and NoSQL experience (must understand trade offs of relational and non-relational models)
+•AWS experience
+
+//Also contains very important web site link which i will be using later
+
+https://google.github.io/styleguide/javaguide.html
+
+//Check out this link below for TCS contract requirement (JAVA Requirement, should not have more than 2 years of gap)
+https://www.naukri.com/job-listings-Immediate-Opening-Java-Developer-pune-yerwada-exp-4-Years-Future-Focus-Infotech-Pvt-Ltd-Pune-Hadapsar-Gaon-2-4-to-9-years-110919005243?src=jobsearchDesk&sid=15683071772435&xp=16&px=1
+
+
+https://www.naukri.com/job-listings-Urgent-Opening-For-Comptel-Support-Pune-Location-with-one-of-the-le-Peoplefy-Infosolutions-Pvt-Ltd-Pune-2-to-7-years-130919010831?src=rcntSrchWithCount&sid=15685619691187&xp=3&px=1
+
+https://www.naukri.com/job-listings-Hiring-For-Application-Support-Experis-IT-Private-Limited-Bengaluru-Pune-Patna-Faridabad-0-to-4-years-130919011722?src=rcntSrchWithCount&sid=15685619691187&xp=5&px=1
+
+//Check this link - we can apply here later
+https://www.naukri.com/job-listings-Linux-Unix-Administrator-Tomcat-apache-Career-Infosystem-Mumbai-Pune-5-to-10-years-280819012376?src=jobsearchNearby&sid=156856197183&xp=38&px=1
+
+
+//Send mail to this for job
+suwarna.salve@in.experis.com
+
+CTC:
+ECTC:
+Notice Period
+Current Location
+Preferred Location.
+
+
+//Below description of Linux engineers has been taken from below website :-
+https://www.bestsampleresume.com/examples/engineering/linux-engineer.html
+
+
+
+Career Objective:
+
+Intend to work as a Linux engineer for a renowned IT organization on basis of my extensive experience and skills in handling Linux systems and applications
+
+Summary of skills:
+
+In-depth knowledge of Linux operating system functionality, kernel tunable, file systems, and server hardware
+Comprehensive knowledge of DNS, scripting and Windows environment
+Strong understanding of networking concepts and implementation of Linux-based infrastructure solutions
+Advance knowledge of Java based application Server architectures like MYSQL, Tomcat, NF, NTP, SSH, DNS, and SNMP
+Knowledge of TCP/IP protocols, scripting and software development
+Familiar with Windows server platform and Windows Linux
+
+
+
+Handle tasks of providing a variety of systems administration and operational support services for enterprise network systems
+Evaluate and install new software releases, system upgrades, and patches within a configuration management framework
+Resolve hardware and software-related problems, as well as perform system backup and recovery
+Handle tasks of maintaining data files and monitoring system configuration to ensure data integrity
+Work as a team with the client and other contractors to identify, present, and resolve issues with current architecture and foreseeable future issues with limited supervision.
+Manage priority changes as directed by government officials, and perform other duties, as assigned
+
+
+
+Junior Linux Engineer
+Duties and Responsibilities
+Responsible for evaluating, defining, gathering, testing and delivering Linux platform solutions
+Research and develop technical solutions to support and optimize client/server/infrastructure technology
+Provide support to the systems infrastructure, trading applications, and database teams by diagnosing system problems, recommending solutions, and implementing initiative
+Coordinate with cross-functional teams to develop best practices and standards
+Handle tasks of providing technical training to peer technology teams pertaining to the relevant area of responsibility
+Work with software vendors and UNIX administrators to provide optimum system performance and availability
+Educational Qualification:
+
+Bachelor's degree in Computer Science from University of New Jersey
+
+Reference:
+
+Would be pleased to furnish upon request.
+ 
+ 
+ https://www.udemy.com/linux-administration-bootcamp/
+ 
+ send email to - gayatrirtote@gmail.com
+ hr@mentorinternationalschool.com
+ hr@mentorinternationalschool.com
+ 
+ +91 9766 07 07 00
+ 
+ 
+ JSP, Servlets and JDBC for Beginners: Build a Database App - course at udemy.com
+ 
+ //Look at these website links for understanding of different things
+ http://javamoods.blogspot.com/2009/09/spring-use-custom-namespaces.html
+ https://docs.spring.io/spring/docs/2.5.x/reference/extensible-xml.html
+ 
+ Look at below course - 
+ Java Multithreading, Concurrency & Performance Optimization by  Michael Pogrebinsky
+ 
+ 
+ //Crescent school Magarpatta
+ https://www.chs.edu.in/preschool/#contact
+ 
+ Pay electricity bill on 
+ www.mahadiscom.in
+ consumer id - 1602 315 24816
+ 
+ Useful weblinks for study : - 
+ 1. http://tutorials.jenkov.com/java/enums.html
+ 
+ 
+ 2. Browse this Java collection topics from Jenkov
+ http://tutorials.jenkov.com/java-collections/index.html
+ 
+ 
+ 
+ For speedy processing of your CV, please send individual mail with CV and below requested details to amol.m@az7global.com.
+
+Relevant years of experience in Core Java -
+Relevant years of experience in Product Development using Java/J2EE â
+Relevant years of experience in Service Oriented Architecture (SOA) â 
+Relevant years of experience in enterprise application integration (EAI) -
+Relevant years of experience in Agile Development -
+Relevant years of experience in CI/CD & DevOps Practices â
+Relevant years of experience in Healthcare Domain -
+Relevant years of experience in leading a team -
+How many people are directly reporting to you -
+How much do you rate yourself on the scale of 1 to 10 for English Communication Skills - 
+Current Company & Designation/Role - 
+Qualification(Fulltime only) & Certifications -
+Current CTC -
+Expected CTC(please do mention in lakhs) -
+Official Notice Period -
+How many minimum possible days required to join if selected -
+Current Location -
+Are you ready to shift to Pune -
+ 
+//How to make veg clear soup ?
+You will need
+
+1 cup broccoli, 1 cup carrot, 1 cup green peas, 1 cup capsicum and 1 onion along with 6 garlic cloves, black pepper and salt as per taste.
+//insted of brocoli we can have cauli-flower also
+
+Chop all the vegetables finely.
+
+Take a pan and heat a tablespoon of oil. Now saute garlic and onion until brown and then add all the veggies and saute for five more minutes. Now add water and let the mixture to boil. Cover the pan and let the mixture boil on a medium flame for 10 minutes. Adds salt and pepper as per your taste and serve hot
+
+1. Little Millennium Magarpattacity pre school
+
+Address: Mulberry Gardens, Bunglow No. 12,, Magarpatta City,, Pune, Maharashtra 411013
+Hours: 
+Closes soon: 2:30PM ⋅ Opens 9AM Tue
+
+Phone: 096046 47727
+
+2. Euro Kids
+
+Address: Bungalow No 19,Mulberry Gardens 2,, Magarpatta City, Hadapsar, Pune, Maharashtra 411028
+Hours: 
+Closes soon: 3PM ⋅ Opens 9AM Tue
+
+
+Phone: 083799 82993
+
+Requirement for Assistant Primary Teacher
+
+//Requirement of Lead Engineer at Msys Technology 
+-------------------------------------------------------------
+The sender of this email is registered with Naukri.com as MSys Tech India Pvt. Ltd. company. To respond back directly to the Employer, please click on Reply button, or send an email to yuvi@msystechnologies.com
+Experience required for the Job: 12 - 18 years
+Annual Salary of the Job: 0.00 - 30.00 Lacs
+Job Location: Pune
+
+Dear Candidate,
+
+We are looking for a Lead Engineer who will help us build and keep up to date our award-winning Online Payments Platform in an DevOps Agile environment. What makes our solution different from the rest of industry is the high system availability, real time, good responsiveness, Security and Compliance, full tests code coverage and a high degree of automation.
+
+Responsibilities:
+
+Contribute to development of a world class eCommerce Payment Platform.
+Design, develop, test and deliver high quality software/solutions in an agile environment.
+Create and review unit, component integration, system and performance tests.
+Research and resolve customer reported problems.
+Provide technical assistance to colleagues and work together with them to achieve the teams common goals and projects.
+Understand and Adhere to all Corporate Policies to include but not limited to Code of Ethics and Global Information Security
+
+Minimum requirements:
+
+Excellent written and verbal communication
+Ability and willingness to understand, follow, amend and define specifications
+Very good knowledge of either Java
+OS X/Unix knowledge
+Webservice - Microservices Architecture
+Willingness to go deep in all kinds of security analysis for our features and code, exploring security and compliance threats.
+Knack for writing clear, maintainable functions and modules
+Ability to author expressive and exhaustive tests.
+Bachelor's degree in computer science or related field
+Min 8 years experience of software development with a focus on Java Development
+
+Preferred skills:
+
+Java EE experience: the servlet specification, Spring, Hystrix, Java Script, JQuerry
+Experience with object-oriented programming, knowledge of Design Patterns.
+SQL knowledge
+Some level of design patterns familiarity and especially when (not) to use such design patterns is always appreciated Gradle, Maven, Jenkins, git, Docker
+OS x/Unix Knowledge about Static code scanning, security scanning, dynamic scanning and pen testing tools
+Postgres and Hibernate: performance tuning and hands-on experience are a big plus
+Experience in banking or financial software development.
+Experience in Automation is a plus
+High analytical skills and critical understanding of NFRs and strong problem-solving skills
+Ability to work in a high-pressure situation with tight deadlines at times.
+---------------------------------------------------------------------------------------------------
+
+//Use this URL to buy some good courses related to security
+https://www.udemy.com/courses/search/?q=owasp%20top%2010&src=sac&kw=OWASP
+
+Khradi contract job . Send cv to anita.g@growelsoftech.com
+
+Java/J2ee
+Core Java
+Spring framework,SpringBoot,SpringBatch
+Hibernate
+WebServices - rest/soap
+
+Addditinal details :
+Total years of experience
+Relevant experoence
+Current Salary
+Expected Salary
+Notice Period
+Current Number
+Interested for Conttract to hire :
+
+AASSaaas
+
+Rkrish
+
+AWS Certified Solutions Architect Associate 2019 - Hands on!
+
+API-Security using oauth or some tokenization thing
+//Look at the below web url for further reading on @ModelAttribute annotation
+https://www.baeldung.com/spring-mvc-and-the-modelattribute-annotation
+
+//Look at this website for hibernate source code
+http://www.luv2code.com/hibernate-tutorial/
+
+//Hibernate logging guide
+https://thoughts-on-java.org/hibernate-logging-guide/
+
+Hi,
+
+This is Amit Kumar . My last working day at Capgemini was 28th September, 2018.
+
+Request you to verify  my PAN number  on "Employee PF portal" . 
+
+Please find my PAN NO attached with the mail for your reference.
+
+Regards,
+Amit Kumar
+Employee ID - 82327_FS
+
+
+Subject - PF - Please verify my PAN Number on Employee PF Portal - Employee ID - 82327_FS
+
+Mail ID - info@excelityglobal.com
+
+Date : 23102019 
+Opening of Java developer with "Compumatrice multi media Pvt Ltd "
+Requirement :-
+
+1. Core Java
+2. Must hava Java / J2EE background
+3. Multi - threading using Java
+4. Rest API Knowledge using
+5. SOAP Web Services knowledge including WSDL
+6. Knowlwdge of XML including schema and Namespaces
+7. Eclipse based IDE
+8. RDBMS Knowledge using SQL
+9. Testing of web services using Postman and SoapUI
+Contact - Sandhya - 96374 - 54929
+
+Look at the naukri email of 23102019
+
+000 501 509 100 
+
+Look at this website for info on "DataProvider"
+https://howtodoinjava.com/testng/testng-dataprovider/
+
+Below is the learning for Spring Boot 
+clone code from this location
+https://gitlab.com/videolearning/spring-fundamentals
+
+//Look at these questions, and find how to answer these questions,
+Why are String objects immutable?
+How to create an immutable class?
+What is string constant pool?
+What code is written by the compiler if you concatenate any string by + (string concatenation operator)?
+What is the difference between StringBuffer and StringBuilder class?
+
+//Look at this website for Core Java question preparation .
+https://www.javatpoint.com/how-to-create-immutable-class
+
+Hands-on experience in design and defining architecture of complex web based applications.
+Hands-on experience on building distributed application using Core JAVA 7/8, Spring, Spring boot.
+Experience in ORM frameworks such as Hibernate/JPA.
+Working experience with SQL and NoSQL databases such as PostgreSQL, Oracle, MongoDB.
+Hands-on experience on Web services development (SOAP and REST).
+Experience in working with API Security using OAuth, Tokenization Encryption.
+Continuous Integration tools like Jenkins, Bamboo, Gitlab CI.
+Knowledge of configuration tools like Chef, Puppet, Ansible.
+Hands-on knowledge of tools like Maven, Gradle, Junit, Mockito.
+Knowledge of Microservices, Cloud such as Pivotal Cloud Foundry, Amazon Web Services.
+Hands-on knowledge of build tools like Maven, Gradle.
+Experience working with Git, Junit, Mockito, JIRA and similar tools.
+Effectively identifying technical gaps in junior team members and solve their technical issues.
+Effective End-to-End execution of project from requirement till production deployment phase.
+Effective Coordination with Team/Team handling, Project stakeholder management.
+
+
+//Requirement 2 :
+
+Job Summary: Cognizant Hiring Java Developer / Java Professional in Pune
+Skills
+Combo 1). Spring Core, REST Web Services, JDBC, Core Java, Oracle
+2) Core JAVA, Spring, Spring boot, Hibernate,Webservices, Junits, Design Pattern
+3) Java , J2EE ( Willing to get trained on Intellimatch/TLM/Gresham)
+4) Core Java, SpringBoot, MicroServices
+Notices period Imamates / 60 days less
+Face to face Interview 2nd Nov 2019( Saturday)
+
+
+//I have made an account on HackerRank website and bewlow are the details,
+
+ak160310@gmail.com 
+Passwd - Newworld@123
+
+//Check this course on udemy.com
+Docker Mastery: with K8s & Swarm from a Docker Captain
+
+
+
+//////////////////Look at this requirement from Magarpatta city
+
+Experience: 4 - 6 years
+Skills: Java, Spring, Hibernate, Java Developer, Java Programmer
+Industry: IT/Computers - Software
+Functional Area: IT Role - Java,Spring,Hibernate
+
+Experience - 4 To 6 Yrs
+Notice period - Immediate/15-20 days
+Work Location -Pune
+
+If interested please share updated resume [HIDDEN TEXT]
+
+Karishma Khanna
+
+Team Lead
+
+Sellcraft Global Solutions,604
+
+Pentagon Tower P1,
+
+Magarpatta City,Hadapsar
+
+Pune-400607, Maharashtra
+
+India
+
+Contact: 020-40134082 | +91-8007804673
+
+Mailto: [HIDDEN TEXT]
+
+Website: http://www.sellcraft.net
+
+Java developer opening link :- 
+http://careers.sellcraft.net/job-listings-Java-Developer-3-Years-Pune-Mumbai-Sellcraft-Global-Solutions-Private-Limited-Pune-Mumbai-4-to-9-years-311019003357?xp=4
+
+//Download DB Scripts from ,
+www.luv2code.com/hibernate-mapping-database-scripts
+
+//Fron below website i downloaded Spring - Basically below website re-directs to Spring website
+www.luv2code.com/downloadspring
+
+Jumbo Kids No - 93255 - 83095
+Number 2 - 86250 - 79655
+
+Note these important links (Git link) and http url's for the downloads of Spring - Hibernate course by Chad Darby .
+
+git clone https://github.com/darbyluv2code/spring-and-hibernate-for-beginners.git
+http://www.luv2code.com/download-spring-hibernate-pdfs
+http://www.luv2code.com/download-spring-hibernate-faq-notes
+
+//Look at some spring related logs configration at below n,
+http://www.luv2code.com/spring-xml-logs
+
+//This could be the interview question of Spring Boot / Micrservice architecture job interview
+
+Java 8, Microservices (Spring Boot), JSON, preferably Hibernate, and knowledge of Gradle for build ,
+
+Experience with Docker and Kubernetes, and AWS S3,
+
+Experience of working with Security Token Service (STS) & AWS API Gateway,
+
+Should have good knowledge of core AWS services,
+
+Should have experience in Micro services
+
+//Below is the detailed Job - description of Dev-ops engineer from tech mahindra
+
+Detailed JD § Scripting, Jenkins 2.0, Chef, PCF, Splunk - preferably two with strong chef expertise and the other two with Jenkins Pipeline Scripting – be it Shell, Python, Perl, Ruby. Knows regular expressions, REST principles etc good Splunk skills, and groovy scripting knowledge Chef – Automated provisioning Very good Unix Knows Containers ; Docker knowledge is a must – PCF is a big advantage (PCF is NOT mandatory) Knows the CI /CD practices, knows how to build and deploy a Java project from code to deploy. Good with SQL – should be able to run queries and extract info from
+
+//Below is the Microservice - architecture related interview questions
+https://www.edureka.co/blog/interview-questions/microservices-interview-questions/
+
+//Classic persistent requirement which you can target
+Job Description :
+
+Must Have: 
+10 + years of experience. Java, Spring, Hibernate , RestAPI UI Technologies : JavaScript, and any of the following Angular , ReactJS, Backbone, Knockout.
+Database: any one RDBMS Oracle or MSSQL or PostGrace 
+Good to have: 
+Sound understanding of Design Patterns Skill - Java-Core Java 5.0-Java.
+If this job description matches to your current profile, kindly share updated copy of your resume with below mentioned details :e
+
+Java developer - shashikala@sellcraft.net
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//ideal job for you to prepare
+//This is a very important job description for a dev ops engineer having UNIX background
+
+Detailed JD § Scripting, Jenkins 2.0, Chef, PCF, Splunk - preferably two with strong chef expertise and the other two with Jenkins Pipeline Scripting – be it Shell, Python, Perl, Ruby. Knows regular expressions, REST principles etc good Splunk skills, and groovy scripting knowledge Chef – Automated provisioning Very good Unix Knows Containers ; Docker knowledge is a must – PCF is a big advantage (PCF is NOT mandatory) Knows the CI /CD practices, knows how to build and deploy a Java project from code to deploy. Good with SQL – should be able to run queries and extract info from variety of DBs
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//Look at details of factory pattern here
+https://www.javatpoint.com/factory-method-design-pattern
+
+//Look at details of abstract factpry pattern here
+
+https://www.javatpoint.com/abstract-factory-pattern
+
+//Look at this sample spring boot opening in Persistent systems Ltd
+https://www.naukri.com/job-listings-Java-springboot-Developer-persistent-Systems-pune-Persistent-Systems-Limited-Pune-4-to-9-years-241019008270?xp=19&utm_campaign=simjobsjd_bottom&src=simjobsjd_bottom
+
+
+
+//Below is the profile of IAM develloper 
+More than 8 years of relevant experience
+Strong hands on development experience in Java/J2EE and Web Services development
+Hands on development experience in web services using REST principles and security (SSL/TLS) standards.
+Experience in handling performance issues in applications and fine tuning the applications to perform to the need
+Knowledge on SAML and OIDC
+Familiar with JNDI and Java based LDAP client programming, active directory server
+Strong in the fundamentals of DB/RDBMS with hands on mysql/postgres like dbs.
+Build Management skills and experience with tools Maven/Ansible
+Familiar with CI/CD tooling such Puppet and/or Jenkins
+Experience with Source Control Management tool like Git
+Highly Motivated individual
+Self-starter and a quick learner
+Has an innovation and ideation mindset
+Good Communication skills
+Works well with a team (both onshore and offshore)
+
+//TomTom Job posting for IAM developer
+https://www.tomtom.com/careers/jobdetails/JOB_POSTING-3-15204/sr-application-engineer-iam-java/
+
+//youtube link for uml tutorial
+https://www.youtube.com/watch?v=UI6lqHOVHic
+
+87887
+
+//Preparation of Java Interview questions
+https://www.journaldev.com/1321/java-string-interview-questions-and-answers
+
+//Look at the below link for threading study
+http://tutorials.jenkov.com/java-concurrency/synchronized.html
+http://tutorials.jenkov.com/java-concurrency/synchronized.html
+
+Send cv to candace.d@peoplefy.com
+
+JD :- 
+Java/ Core Java
+Spring
+RestFul webservices/ SOAP webservices/ Rest API
+Any databases.
+
+Command pattern
+Observer pattern
+Template pattern
+
+Interview questions you came across
+
+Thread life cycle
+Thread wait vs sleep difference
+Synchronized keyword
+what is concept of Serializable
+how would u implement serializable 
+What is immutable class,how will u implement
+What design pattern is in iiostream classes of Java
+how would u sore and Employee on age,name  - Write your own logic - Collection.sort mmmethod - provide implementation of comparable etc
+what are diffferent scopes in Spring
+What are Java8 features - and then question on that ???
+ConcurrentHashMap , HashMap, Hashset,Hashtables
+Rest services Vs Soap Service
+Create resume on Indeed.co.in
+
+//Jenknov tutorial is one of the good one which i can refer for preparation of Java
+http://tutorials.jenkov.com/java/lambda-expressions.html
+
+//These kind of skills are in demand (This is for Tech M - Think on this)
+Required Skill
+
+ Spring
+
+Hibernate
+
+Microservice
+
+Angular JS
+
+JMS
+
+Jenkins- CI/CD
+
+Mave
+
+//Above Tech mahindra job location URL
+https://www.naukri.com/job-listings-Senior-Java-Developer-Pune-Tech-Mahindra-Ltd-Pune-6-to-10-years-131119012192?xp=2&utm_campaign=simjobsjd_rt&src=simjobsjd_rt
+
+//Look at this course at udemy.com
+1. Learn Advanced C++ Programming By  John Purcell
+
+//20122019 ...Look at the below job profile 
+
+Well versed in Core Java, OOPS concepts, collections, multi-threading, concurrency, lambdas and streams.

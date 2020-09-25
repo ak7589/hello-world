@@ -1,0 +1,57 @@
+Core Java Questions
+
+Discuss method overriding in Java?
+
+Discuss internals of a HashMap? What is Role of equals() and hashcode() method in Object class? What will be behavior if we override hashcode() method to always return 1?
+
+Solution discussed here
+
+What is difference between Future and Callable interface in Java?
+
+When should we use StringBuilder class in a program?
+
+What is Executor Framework. How is it different from Fork Join Framework?
+
+What is a Immutable Class? How does it help in writing scalable applications?
+
+What is thread safety? How do you achieve it?
+
+How will you handle ConcurrentModificationException?
+
+What is difference between poll() and remove() method of an Queue?
+
+poll() method retrieves and remove the head of the queue. If the queue is empty then it just returns the null. remove() method also retrieves and removes the head of the queue. The only difference is that remove() method will throw an exception if the queue is empty.
+
+What is difference between fail-fast and fail-safe iterators?
+
+What makes Concurrent Collections different from Synchronized Collections?
+
+What is difference between Vector and ArrayList?
+
+What is difference between HashSet and HashMap?
+
+What is CopyOnWriteArrayList, how it is different than ArrayList and Vector?
+
+When to use serialization vs externalizable interface?
+
+Design Problems
+
+How do you pass a job from Thread 1 to Thread 2 to Thread 3?
+
+How will you implement a Queue in Java?
+
+Discuss Singleton and Decorator Design Pattern. Discuss the practical usage of these design patterns. How to make singleton class thread safe?
+
+How will you implement pagination in a web application? What is difference between Factory and Abstract Factory Design Pattern?
+
+You have array of n size having numbers between 1 to 100. you need to provide algorithm for sorting array with BigO(n) iteration.
+
+How will you implement your own Binary Tree in Java?
+
+There is a very big text file containing words? How would you read & process it to print the below output.
+
+Print the top ten ranked distinct words.
+
+Print the occurrence of the each alphabet in this file consider that the file can not fit into main memory of computer.
+
+How will you design your custom Connection Pool in Java?
