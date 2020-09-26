@@ -34,7 +34,8 @@ public class EnumPractice {
 		testMethod1(Currency.RUPEE);
 		
 		//call another method
-		testMethod2("DOLLAR1");
+		//testMethod2("DOLLAR1");
+		testMethod2("DOLLAR");
 
 	}
 
