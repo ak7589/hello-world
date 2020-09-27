@@ -714,6 +714,7 @@ https://hackr.io/blog/spring-interview-questions
 //Spring interview questions
 
 https://www.luv2code.com/category/spring/
+https://www.dineshonjava.com/spring-aop-interview-questions-and-answers/
 
 
 <!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
