@@ -710,3 +710,36 @@ https://junit.org/junit5
 https://hackr.io/blog/spring-interview-questions
 
 ////////////////////////////////////////////////////////////26092020 END ///////////////////////////////////////////////////
+
+//Spring interview questions
+
+https://www.luv2code.com/category/spring/
+
+
+<!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-core</artifactId>
+    <version>5.2.9.RELEASE</version>
+</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/org.springframework/spring-web -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-web</artifactId>
+    <version>5.2.9.RELEASE</version>
+</dependency>
+
+
+<properties>
+		<java.version>1.8</java.version>
+		<maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
+	</properties>
+	
+//JOB URLS
+https://www.naukri.com/job-listings-java-development-5-15-years-persistent-systems-pune-persistent-systems-limited-pune-5-to-10-years-210920004844?xp=1
+
+
+//Look at C:\2020\rnd for imp downloads
+		
