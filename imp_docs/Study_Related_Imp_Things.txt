@@ -743,4 +743,49 @@ https://www.naukri.com/job-listings-java-development-5-15-years-persistent-syste
 
 
 //Look at C:\2020\rnd for imp downloads
+
+//Some job skills for spring cloud
+Microservice design concepts -Bounded domain concept, Stacks and the usages, Data Layer
+Handling scaling requirements
+Strong Hibernate, JPA hands on experience
+Spring cloud knowledge : Eureka, Zuul, Hystrix, Ribbon etc
+Tracing methodology: eg: Zipkin, sleuth etc
+Middleware, Messaging concepts and scenarios, Rule Engines
+Config server concepts
+Good to have
+UI Angular or JS based Frameworks
+Data Modelling knowledge
+Good communication and expertise in leading team
+https://www.journaldev.com/1377/java-singleton-design-pattern-best-practices-examples#eager-initialization
+http://tutorials.jenkov.com/java/enums.html#enum-example
 		
+		
+Current CTC
+Expected CTC
+Current Location
+Notice Period
+
+kids uv protection glasses
+
+look at the course - spring data jpa
+
+https://github.com/in28minutes/spring-microservices/tree/master/03.microservices
+
+//Mark this java codility test on udemy.com
+https://www.udemy.com/course/beat-the-codility-coding-interview-in-java/
+
+
+//01102020//////////////////////////////////////////////////START////////////////////////////////////
+
+https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#reference
+
+
+//common spring boot properties
+
+https://docs.spring.io/spring-boot/docs/2.0.x/reference/html/common-application-properties.html
+
+Search for below thing for gardening
+nature plus cocopeat
+
+
+//01102020//////////////////////////////////////////////////END////////////////////////////////////

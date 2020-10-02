@@ -1,8 +1,11 @@
 package com.pluralsight.corejava8new.practice;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
+import java.io.IOException;
+import java.nio.file.*;
 
 public class StreamExample {
 
@@ -11,15 +14,97 @@ public class StreamExample {
 		
 		System.out.println("Hi Amit, welcome to stream java example....");
 		
+		//Below is the 1st example of stream of processing total empty name count
+		//and also non-empty name count
 		streamProcessEx1();
+		
+		//Stream example of empty and non-empty name count in little different way
 		streamProcessEx2();
+		
+		//This is an stream example of calculating average age
 		streamProcess3();
 		//Flat map example
+		
+		//Below is the first example of flatMap. Use case is, there is list
+		//of citits. Each city contain list of person. Requirement is to find
+		//total no of persons in all cities. Also executed a scenario where you
+		//want to exclude a particular city
 		flatMapExample1();
+		
+		//Below example is for creating stream from an array
+		createStreamFromArray();
+		
+		//Create stream at time of reading file
+		createStreamFromFiles();
 		
 		
 		
 
+	}
+
+	private static void createStreamFromFiles() {
+		// TODO Auto-generated method stub
+		
+		System.out.println("createStreamFromFiles Start ---");
+		
+		Path path = Paths.get("ExtFiles/first-names.txt");
+		
+		try (Stream<String> lines = Files.lines(path);) {
+			
+			//Print all lines
+			//lines.forEach(line -> System.out.println(line));
+			
+			//Print no of lines in the file
+			Long noOfLines = lines.count();
+			System.out.println("No of lines in the file : " + noOfLines);
+			
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+				
+				
+				
+				
+				
+		
+		System.out.println("createStreamFromFiles End ---");
+		
+	}
+
+	private static void createStreamFromArray() {
+		// TODO Auto-generated method stub
+		
+		System.out.println("createStreamFromArray Start...");
+		
+		Person p1 = new Person("Amit",21);
+		Person p2 = new Person("Gunjan",22);
+		Person p3 = new Person("Vidut",24);
+		
+		Person[] perArray = {p1,p2,p3};
+		
+		//Create stream to count no of elements in Person[]
+		Stream<Person> peopleStream = Arrays.stream(perArray);
+		
+		long personCount = peopleStream.count();
+		
+		System.out.println("Person Count : " + personCount);
+		
+		//Create another stream to demo map-filter-reduce pattern
+		Stream<Person> peopleStream2 = Arrays.stream(perArray);
+		
+		long personCount2 = peopleStream2.map(person -> person.getName())
+										.filter(name -> !name.equalsIgnoreCase("Amit"))
+										.count();
+		System.out.println("Person Count exluding Amit..." + personCount2);
+		
+		//Create one more stream for the demo of terminal operation for-each
+		Arrays.stream(perArray).forEach(p -> System.out.println(p));
+		
+		System.out.println("createStreamFromArray End...");
+		
+		
 	}
 
 	private static void flatMapExample1() {
@@ -70,9 +155,13 @@ public class StreamExample {
 		System.out.println("Total Person Count In all Cities are : " + totalPerson);
 		
 		
+		System.out.println("Getting person count , by excluding Patna city...");
 		
-		
-		
+		long totalPerson2 = citiList.stream()
+									.filter(city -> ! city.getName().equalsIgnoreCase("Patna"))
+									.flatMap(city-> city.getPersonList().stream())
+									.count();
+		System.out.println("Person count except Patna city ..." + totalPerson2);
 		
 		
 		System.out.println("flatMapExample1 End ---");
@@ -146,6 +235,8 @@ public class StreamExample {
 	private static void streamProcessEx1() {
 		// TODO Auto-generated method stub
 		
+		System.out.println("streamProcessEx1 Start...");
+		
 		User user1 = new User("Amit1",43);
 		User user2 = new User("Amit2",44);
 		User user3 = new User("Amit3",45);
@@ -172,6 +263,17 @@ public class StreamExample {
 		long emptyNamecount = userNamestream2.count();
 		
 		System.out.println("Empty name count is : " + emptyNamecount);
+		
+		System.out.println("Calculate non empty name count also...");
+		
+		long nonEmptyNameCount = userList.stream()
+				.map(usr -> usr.getFirstName())
+				.filter(name -> ! name.isEmpty())
+				.count();
+		
+		System.out.println("NonEmpty_Name_Count is : " + nonEmptyNameCount);
+		
+		System.out.println("streamProcessEx1 End...");
 		
 	}
 
