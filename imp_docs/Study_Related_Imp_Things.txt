@@ -780,6 +780,8 @@ https://www.udemy.com/course/beat-the-codility-coding-interview-in-java/
 https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#reference
 
 
+
+
 //common spring boot properties
 
 https://docs.spring.io/spring-boot/docs/2.0.x/reference/html/common-application-properties.html
