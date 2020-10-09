@@ -3,6 +3,7 @@ package com.pluralsight.corejava8new.practice;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import java.io.IOException;
 import java.nio.file.*;
@@ -16,6 +17,9 @@ public class StreamExample {
 		
 		//Below is the 1st example of stream of processing total empty name count
 		//and also non-empty name count
+		
+		//Below method also contains example of -- Collecting data from Streams and 
+		//creating list or set
 		streamProcessEx1();
 		
 		//Stream example of empty and non-empty name count in little different way
@@ -36,10 +40,7 @@ public class StreamExample {
 		
 		//Create stream at time of reading file
 		createStreamFromFiles();
-		
-		
-		
-
+	
 	}
 
 	private static void createStreamFromFiles() {
@@ -62,12 +63,6 @@ public class StreamExample {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
-				
-				
-				
-				
-				
 		
 		System.out.println("createStreamFromFiles End ---");
 		
@@ -272,6 +267,13 @@ public class StreamExample {
 				.count();
 		
 		System.out.println("NonEmpty_Name_Count is : " + nonEmptyNameCount);
+		
+		//Example of converting to the list from the stream --start
+		List<String> nameList = userList.stream()
+				.map(usr -> usr.getFirstName())
+				.filter(name -> ! name.isEmpty())
+				.collect(Collectors.toList());
+		//Example of converting to the list from the stream --end
 		
 		System.out.println("streamProcessEx1 End...");
 		
