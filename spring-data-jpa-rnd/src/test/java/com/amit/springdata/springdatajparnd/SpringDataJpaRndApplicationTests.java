@@ -154,7 +154,8 @@ class SpringDataJpaRndApplicationTests {
 	public void testFindAllPaging() {
 		//Lets first check how many records are there in DB
 		long totCount = prodRepository.count();
-		int no_of_recs =1;
+		//int no_of_recs =1;
+		int no_of_recs =2;
 		
 		long totalPages = totCount / no_of_recs;
 		
@@ -175,6 +176,22 @@ class SpringDataJpaRndApplicationTests {
 		System.out.println("Total no of records in Product table : " + totCount);
 	}
 	
+	@Test
+	public void testFindAllSortingAsc() {
+		
+		//Example of sorting by multiple properties
+		Sort sort = Sort.by("name","price");
+		prodRepository.findAll(sort).forEach(prod -> System.out.println(prod.getName()));
+		
+	}
+	
+	@Test
+	public void testFindAllSortingDesc() {
+		
+		Sort sort = Sort.by("name").descending();
+		prodRepository.findAll(sort).forEach(prod -> System.out.println(prod.getName()));
+		
+	}
 	
 	@Test
 	public void testCreateEmployee() {
