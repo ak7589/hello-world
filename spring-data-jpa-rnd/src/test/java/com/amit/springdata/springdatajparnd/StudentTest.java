@@ -102,5 +102,23 @@ class StudentTest {
 		
 		studentRepository.deleteStudentByFirstName("Amit");
 	}
+	
+	//Test native query...
+	@Test
+	public void testfindAllStudentsNative() {
+		List<Student> studentList = studentRepository.findAllStudentsNative();
+		
+		studentList.forEach(student -> System.out.println(student));
+		
+	}
 
+	@Test
+	public void testfindStudentByName(){
+		
+		List<Student> studList = studentRepository.findStudentByName("Amit");
+		
+		studList.forEach(student -> System.out.println(student));
+		
+		
+	}
 }

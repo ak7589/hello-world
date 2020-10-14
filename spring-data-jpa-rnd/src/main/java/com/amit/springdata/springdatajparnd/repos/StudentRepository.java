@@ -28,6 +28,14 @@ public interface StudentRepository extends CrudRepository<Student, Integer>{
 	@Query("delete from Student where firstName = :firstName")
 	void deleteStudentByFirstName(@Param("firstName")String firstName);
 	
-	//List<Student> findAll();
+	//Native Query example
+	
+	@Query(value="select * from student",nativeQuery=true)
+	List<Student> findAllStudentsNative();
+	
+	//Native Query example with parameter example
+	
+	@Query(value="select * from student where fname = :name",nativeQuery=true)
+	List<Student> findStudentByName(@Param("name") String firstName);
 	
 }
