@@ -1,27 +1,15 @@
 package com.amit.springdata.springdatajparnd;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 import java.util.List;
-import java.util.Optional;
 
-import org.assertj.core.util.Arrays;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
-import org.springframework.data.domain.Sort;
-import org.springframework.data.domain.Sort.Direction;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.amit.springdata.springdatajparnd.entity.Employee;
-import com.amit.springdata.springdatajparnd.entity.Product;
 import com.amit.springdata.springdatajparnd.entity.Student;
-import com.amit.springdata.springdatajparnd.repos.EmployeeRepository;
-import com.amit.springdata.springdatajparnd.repos.ProductRepository;
 import com.amit.springdata.springdatajparnd.repos.StudentRepository;
 
 @SpringBootTest

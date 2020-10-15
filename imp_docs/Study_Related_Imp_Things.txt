@@ -812,3 +812,4 @@ CREATE TABLE `product` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 E=InnoDB DEFAULT CHARSET=latin1;
 
+master oogway quotes
