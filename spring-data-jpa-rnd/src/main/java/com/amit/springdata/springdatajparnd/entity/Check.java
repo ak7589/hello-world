@@ -19,4 +19,11 @@ public class Check extends Payment {
 		this.checknumber = checknumber;
 	}
 
+	
+	  @Override public String toString() { return "Check [checknumber=" +
+	  checknumber + "]" + " Payment ID : " + this.getId() + " Amt : " + this.getAmount(); }
+	 
+	
+	
+
 }

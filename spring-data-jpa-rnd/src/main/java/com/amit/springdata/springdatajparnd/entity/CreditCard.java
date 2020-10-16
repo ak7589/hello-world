@@ -25,10 +25,10 @@ public class CreditCard extends Payment {
 		this.creditcard = creditcard;
 	}
 
-	@Override
-	public String toString() {
-		return "CreditCard [creditcard=" + creditcard + "]";
-	}
+	
+	  @Override public String toString() { return "CreditCard [creditcard=" +
+	  creditcard + "]" + " Payment ID : " + this.getId() + " Amt : " + this.getAmount() ; }
+	 
 	
 
 }

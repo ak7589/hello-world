@@ -5,9 +5,13 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import org.hibernate.annotations.Cache;
+import org.hibernate.annotations.CacheConcurrencyStrategy;
+
 @Entity
 @Table(name="Product")
-public class Product {
+@Cache(usage = CacheConcurrencyStrategy.READ_ONLY)
+public class Product implements java.io.Serializable {
 
 	@Id
 	private int id;

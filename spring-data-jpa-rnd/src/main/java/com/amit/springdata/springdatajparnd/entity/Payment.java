@@ -1,5 +1,6 @@
 package com.amit.springdata.springdatajparnd.entity;
 
+import javax.persistence.Column;
 import javax.persistence.DiscriminatorColumn;
 import javax.persistence.DiscriminatorType;
 import javax.persistence.Entity;
@@ -18,6 +19,13 @@ public abstract class Payment {
 	private int id;
 	private double amount;
 	
+	@Column(name="pmode",insertable =  false, updatable = false)
+	private String mode;
+	
+	public String getMode() {
+		return mode;
+	}
+	
 	public int getId() {
 		return id;
 	}
@@ -30,7 +38,11 @@ public abstract class Payment {
 	public void setAmount(double amount) {
 		this.amount = amount;
 	}
-	
-	
 
+	@Override
+	public String toString() {
+		return "Payment [id=" + id + ", amount=" + amount + ", mode=" + mode + "]";
+	}
+	
+	
 }

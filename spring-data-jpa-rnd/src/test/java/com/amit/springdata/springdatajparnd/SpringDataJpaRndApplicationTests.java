@@ -6,7 +6,9 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 import java.util.List;
 import java.util.Optional;
 
-import org.assertj.core.util.Arrays;
+import javax.persistence.EntityManager;
+
+import org.hibernate.Session;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -14,12 +16,13 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
-import org.springframework.data.domain.Sort.Direction;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.amit.springdata.springdatajparnd.entity.Employee;
 import com.amit.springdata.springdatajparnd.entity.Product;
 import com.amit.springdata.springdatajparnd.repos.EmployeeRepository;
 import com.amit.springdata.springdatajparnd.repos.ProductRepository;
+
 
 @SpringBootTest
 class SpringDataJpaRndApplicationTests { 
@@ -29,6 +32,9 @@ class SpringDataJpaRndApplicationTests {
 	
 	@Autowired
 	EmployeeRepository empRepository;
+	
+	@Autowired
+	EntityManager entityManager;
 
 	@Test
 	void contextLoads() {
@@ -190,6 +196,27 @@ class SpringDataJpaRndApplicationTests {
 		
 		Sort sort = Sort.by("name").descending();
 		prodRepository.findAll(sort).forEach(prod -> System.out.println(prod.getName()));
+		
+	}
+	
+	//Below method is added to test first-level-cache of hibernate
+	@Test
+	@Transactional
+	public void testLevelOneCache() {
+		
+		Session session = entityManager.unwrap(Session.class); 
+				
+		Optional<Product> product = prodRepository.findById(1);
+		
+		//Below code is to test that after evicting product from the Session cache
+		//Select query is one more time riggered
+		
+		if (product.isPresent()) {
+			Product tmpProd = product.get();
+			session.evict(tmpProd);
+		}
+		
+		prodRepository.findById(1);
 		
 	}
 	
