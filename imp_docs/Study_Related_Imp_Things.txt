@@ -813,3 +813,45 @@ CREATE TABLE `product` (
 E=InnoDB DEFAULT CHARSET=latin1;
 
 master oogway quotes
+
+//Database normalization 
+https://www.guru99.com/database-normalization.html
+
+
+//Used below statement to ceate table
+create table employee_rnd(
+id int PRIMARY KEY AUTO_INCREMENT,
+first_name varchar(50),
+last_name varchar(50),
+email varchar(100),
+salary int
+)
+
+//SQL Statements used
+insert into employee_rnd (first_name,last_name,email,salary)
+ values ('Amit', 'Kumar','asinha.kumar@gmail.com', 10000);
+ 
+ 
+insert into employee_rnd (first_name,last_name,email,salary)
+ values ('Gunjan', 'Kumar','gunjan.kumar@gmail.com', 12000);
+ 
+ 
+ 
+insert into employee_rnd (first_name,last_name,email,salary)
+ values ('Vidut', 'Kumar','vidut.kumar@gmail.com', 13000);
+ 
+ 
+ 
+insert into employee_rnd (first_name,last_name,email,salary)
+ values ('Ramu', 'Kumar','Ramu.kumar@gmail.com', 11000);
+ 
+ 
+ 
+insert into employee_rnd (first_name,last_name,email,salary)
+ values ('Shyamu', 'Kumar','Shyamu.kumar@gmail.com', 14000);
+ 
+ 
+commit
+
+
+
