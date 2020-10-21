@@ -37,11 +37,50 @@ public class JavaCodingTest {
 		int k = 2;
 		arrayCyclicRotation(arrayOfInts,k);
 		
+		//Problem-6
+		findSecondHigestInArray();
+		
 
+	}
+
+	private static void findSecondHigestInArray() {
+		// TODO Auto-generated method stub
+		
+		System.out.println("findSecondHigestInArray Start -----");
+		
+		int arrayOfInt[] = {23,45,1,10,56,99, 108,234,232};
+		
+		int firstHighest = arrayOfInt[0];
+		int secondHighest = arrayOfInt[1];
+		
+		for(int i =2; i < arrayOfInt.length ; i++) {
+			
+			if (firstHighest < arrayOfInt[i]) {
+				secondHighest = firstHighest;
+				firstHighest = arrayOfInt[i];
+			}
+			else {
+				if (secondHighest < arrayOfInt[i]) {
+					secondHighest = arrayOfInt[i];
+				}
+			}
+			
+		}
+		
+		System.out.println("Array Given : " + Arrays.toString(arrayOfInt));
+		System.out.println("First Highest : " + firstHighest);
+		System.out.println("Second Highest : " + secondHighest);
+		
+		System.out.println("findSecondHigestInArray End -----");
+		
 	}
 
 	private static void arrayCyclicRotation(int[] intArray,int k) {
 		// TODO Auto-generated method stub
+		
+		System.out.println("Cyclic rotation start ....");
+		System.out.println("Original Array : " + Arrays.toString(intArray));
+		System.out.println("Rotation Times : " + k);
 		
 		//Create a new integer array
 		int newArray[] = new int[intArray.length];
@@ -52,12 +91,14 @@ public class JavaCodingTest {
 		int newIndex = -1;
 		for(int i=0; i < intArray.length; i++) {
 			newIndex = (i+k) % 5;
+			System.out.println("New index for " + i + " " + newIndex);
 			newArray[newIndex] = intArray[i];
 		}
 		
-		System.out.println("Original Array : " + Arrays.toString(intArray));
-		System.out.println("Rotation Times : " + k);
+	
 		System.out.println("New  Array after cyclic rotation : " + Arrays.toString(newArray));
+		
+		System.out.println("Cyclic rotation end ....");
 	}
 
 	/*
