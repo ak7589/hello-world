@@ -4,7 +4,7 @@ package com.pluralsight.corejava8.general;
  * Nested class example
  */
 
-public class MyClass {
+public class MyClassOuter {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
