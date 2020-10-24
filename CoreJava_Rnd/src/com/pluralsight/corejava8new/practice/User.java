@@ -35,9 +35,5 @@ public class User {
 	public String toString() {
 		return "User [firstName=" + firstName + ", age=" + age + "]";
 	}
-
 	
-	
-	
-
 }

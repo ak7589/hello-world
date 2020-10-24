@@ -853,5 +853,21 @@ insert into employee_rnd (first_name,last_name,email,salary)
  
 commit
 
+////////////////////////////////////////////////////////////////////////////
+
+JAVA LEAD-EXP8-12 YEARS CTC 24 FIXED
+ARCHITECT 10-15 YRS CTC 30LPA,32 LPA
+
+PRIMARY SKILLS: Java, Springboot, Microservices, deveops-
+Docker, kubernetes, AWS/any cloud
+
+Should have experience in dockerization , containerization
+
+How do you do deployment with docker
+Answer-ECS, AKS, OpenShift, Kubernetes, EKS or any other tool
+
+Since you are working in distributed environment then you must be having so many logs to deploy, so how do you deploy
+
+
 
 
