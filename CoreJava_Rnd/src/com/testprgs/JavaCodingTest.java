@@ -40,7 +40,35 @@ public class JavaCodingTest {
 		//Problem-6
 		findSecondHigestInArray();
 		
+		//Problem-7
+		char array[] = {'A','M','I','T'};
+		reverseAnArray(array);
+		
+		//Problem-8
+		/*
+		 * Reverse a string
+		 */
+		String str = "Hello";
+		char[] newArr = reverseAnArray(str.toCharArray());
+		String str2 = new String(newArr);
+		System.out.println("Reversed String : " + str2);
 
+	}
+
+	private static char[] reverseAnArray(char[] array) {
+		// TODO Auto-generated method stub
+		
+		char[] newArray = new char[array.length];
+		
+		for(int i = array.length - 1, j=0 ; i >=0 ; i--,j++) {
+			newArray[j] = array[i];
+		}
+		
+		System.out.println("Passed Array : " + Arrays.toString(array));
+		System.out.println("Reversed Array : " + Arrays.toString(newArray));
+		
+		return newArray;
+		
 	}
 
 	private static void findSecondHigestInArray() {
