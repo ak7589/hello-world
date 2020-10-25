@@ -109,6 +109,7 @@ public class JavaCodingTest {
 		System.out.println("Cyclic rotation start ....");
 		System.out.println("Original Array : " + Arrays.toString(intArray));
 		System.out.println("Rotation Times : " + k);
+		System.out.println("Array Length : " + intArray.length);
 		
 		//Create a new integer array
 		int newArray[] = new int[intArray.length];

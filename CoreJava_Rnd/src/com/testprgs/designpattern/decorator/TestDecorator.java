@@ -7,6 +7,12 @@ public class TestDecorator {
 		
 		SimpleIcecream icecream = new SimpleIcecream();
 		
+		icecream.makeIcecream();
+		
+		HoneyDecorator icecream2 = new HoneyDecorator(icecream);
+		
+		icecream2.makeIcecream();
+		
 
 	}
 
