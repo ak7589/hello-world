@@ -21,6 +21,11 @@ public class Subscriber implements Observer {
 	public void setChnl(Channel chnl) {
 		this.chnl = chnl;
 	}
+	
+	/*
+	 * Every time a new video is uploaded on the channel then below mwthod
+	 * update will be called to 
+	 */
 
 	@Override
 	public void update(String title) {

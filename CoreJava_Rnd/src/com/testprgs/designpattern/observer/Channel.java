@@ -33,6 +33,7 @@ public class Channel implements Subject {
 	//Remove subscriber
 	public void removeSub(Subscriber sub) {
 		subsList.remove(sub);
+		sub.setChnl(null);
 	}
 
 	public String getChannelName() {
