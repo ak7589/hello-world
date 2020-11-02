@@ -1,4 +1,4 @@
-package com.pluralsight.corejava8.general;
+package com.pluralsight.corejava8.nestedclasses;
 
 /*
  * Nested class example. This example shows the two possible

@@ -1,6 +1,6 @@
 package com.pluralsight.corejava8.general2;
 
-import com.pluralsight.corejava8.general.TestClass;
+import com.pluralsight.corejava8.nestedclasses.TestClass;
 
 public class GeneralTestClass extends TestClass {
 	

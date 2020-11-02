@@ -1,4 +1,4 @@
-package com.pluralsight.corejava8.general;
+package com.pluralsight.corejava8.nestedclasses;
 
 public class localInner1 {
 	private int data = 30;// instance variable

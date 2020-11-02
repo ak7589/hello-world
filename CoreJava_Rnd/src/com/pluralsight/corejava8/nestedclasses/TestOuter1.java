@@ -1,4 +1,4 @@
-package com.pluralsight.corejava8.general;
+package com.pluralsight.corejava8.nestedclasses;
 
 /* 
  * Nested class demo
@@ -26,7 +26,9 @@ public class TestOuter1 {
 	public static void main(String args[]) {
 		
 		TestOuter1.Inner obj = new TestOuter1.Inner();
-		obj.msg();
+		//obj.msg();
+		
+		//TestOuter1.Inner.msg();
 		
 		//TestOuter1.Inner.msg();
 		

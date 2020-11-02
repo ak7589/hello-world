@@ -1,4 +1,4 @@
-package com.pluralsight.corejava8.general;
+package com.pluralsight.corejava8.nestedclasses;
 
 /* 
  * Nested class demo
@@ -17,6 +17,8 @@ class TestOuter2 {
 	}
 
 	public static void main(String args[]) {
-		TestOuter2.Inner.msg();// no need to create the instance of static nested class
+		//TestOuter2.Inner.msg();// no need to create the instance of static nested class
+		//TestOuter2.Inner.msg();
+		Inner.msg();
 	}
 }
