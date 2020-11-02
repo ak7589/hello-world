@@ -1,4 +1,4 @@
-package com.pluralsight.corejava8new.practice;
+package com.pluralsight.corejava8new.streamslambda;
 
 public class Person {
 	

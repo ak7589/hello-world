@@ -1,4 +1,4 @@
-package com.pluralsight.corejava8new.practice;
+package com.pluralsight.corejava8new.streamslambda;
 
 import java.util.ArrayList;
 import java.util.Arrays;
