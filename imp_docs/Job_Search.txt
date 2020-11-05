@@ -1417,3 +1417,16 @@ Apart from development,I have also been involved in the,
 	Setting up continuous integration
 	Production rollout
 	Warranty support
+
+	
+-----------------------------------------------------------------------------------------------------------------
+
+Hiring For Java Developer With 4-7 Years experience.
+
+Should be Local to Pune And available to Join Immediately.
+
+Should have strong Hands on experience with Core Java, Spring, webservices, Springboot .
+
+Good to Have - Microservices.
+
+	

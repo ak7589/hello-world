@@ -4,6 +4,12 @@ import com.pluralsight.corejava8.nestedclasses.TestClass;
 
 public class GeneralTestClass extends TestClass {
 	
+	
+	void printClassName(Object obj) {
+        System.out.println("The class of " + obj +
+                           " is " + obj.getClass().getName());
+    }
+	
 	/*
 	 * public void testSetProtected() {
 	 * 
@@ -26,8 +32,9 @@ public class GeneralTestClass extends TestClass {
 		obj.j =99;
 		//obj.k = 98;
 		
-		
 		obj.display();
+		
+		obj.printClassName(obj);
 
 	}
 
