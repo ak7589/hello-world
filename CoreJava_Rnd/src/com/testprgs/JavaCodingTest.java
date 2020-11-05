@@ -1,7 +1,9 @@
 package com.testprgs;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 public class JavaCodingTest {
@@ -52,7 +54,181 @@ public class JavaCodingTest {
 		char[] newArr = reverseAnArray(str.toCharArray());
 		String str2 = new String(newArr);
 		System.out.println("Reversed String : " + str2);
+		
+		//Problem -9.
+		/*
+		 * This is a very simple problem where List of integers is passed to the
+		 * method. In the method you find the sum by 2 methods. One by iterating 
+		 * over list, and 2nd by converting list into array and then finding sum 
+		 * of integers present in the array. This is just a practice sum
+		 */
+		
+		List<Integer> intList = new ArrayList<>();
+		
+		intList.add(51);
+		intList.add(5);
+		intList.add(44);
+		
+		calSum(intList);
+		
+		//Problem - 10
+		int[] arrayOfInts1 = {3,1,2,4,3};
+		//int[] arrayOfInts1 = {3,1,2,1,1};
+		int minDiff = findEquilibrium(arrayOfInts1);
+		
+		System.out.println("Value of Minimum difference : " + minDiff);
+		
+		//Problem - 11
+		int[] arrayOfInts2 = {3,1,2,1,1};
+		divideArrayInTwo(arrayOfInts2);
+		
+		//Problem - 12
+		int[] array3 = {3,4,4,6,1,4,4};
+		int[] retArr = solution(5,array3);
 
+	}
+
+	private static  int[] solution(int N, int[] array3) {
+		// TODO Auto-generated method stub
+		
+		int[] counters = new int[N];
+		
+		Arrays.fill(counters,0);
+		
+		int start_line =0;
+		int current_max =0;
+		
+		for (int i : array3) {
+			int x = i-1;
+			
+			if(i>N)
+				start_line = current_max;
+			else if(counters[x] < start_line)
+				counters[x] = start_line + 1;
+			else 
+				counters[x] += 1;
+			
+			if ((i <= N) && counters[x] > current_max)
+				current_max = counters[x];
+			
+		}
+		
+		for (int i =0; i < counters.length; i++) {
+			if(counters[i] < start_line) {
+				counters[i] = start_line;
+			}
+		}
+		
+		System.out.println("RETURNING solution COUNTER ::: " + Arrays.toString(counters));
+		
+		return counters;
+	}
+
+	private static void divideArrayInTwo(int[] array) {
+		// TODO Auto-generated method stub
+
+		System.out.println("divideArrayInTwo Start .....");
+		// Sum of left part
+		int leftSum = array[0];
+
+		// Sum of right part initially
+		int rightSum = 0;
+
+		for (int temp : array) {
+			rightSum += temp;
+		}
+		rightSum -= leftSum;
+
+		int diff = Math.abs(leftSum - rightSum);
+
+		// Now lets iterate over remaining elements of the array, skipping the first
+		// element
+
+		int newDiff = 0;
+
+		for (int i = 1; i < array.length; i++) {
+
+			leftSum += array[i];
+			rightSum -= array[i];
+
+			if (leftSum == rightSum) {
+				System.out.println("INDEXXXXXX: " + i);
+			}
+		}
+		
+		System.out.println("divideArrayInTwo End .....");
+
+	}
+
+	private static int findEquilibrium(int[] array) {
+		// TODO Auto-generated method stub
+		
+		//Sum of left part
+		int leftSum = array[0];
+		
+		//Sum of right part initially
+		int rightSum = 0;
+		
+		for (int temp : array) {
+			rightSum += temp;
+		}
+		rightSum -= leftSum;
+		
+		int diff = Math.abs(leftSum - rightSum);
+		
+		//Now lets iterate over remaining elements of the array, skipping the first element
+		
+		int newDiff = 0;
+		
+		for (int i = 1; i < array.length; i++) {
+			
+			leftSum += array[i];
+			rightSum -= array[i];
+			
+			newDiff = Math.abs(leftSum - rightSum);
+			
+			if  (diff > newDiff)
+			{
+				diff = newDiff;
+			}
+			
+		}
+				
+		return diff;
+	}
+
+	private static void calSum(List<Integer> intList) {
+		// TODO Auto-generated method stub
+		
+		//Method1
+		int sum =0;
+		
+		for (int temp : intList) {
+			sum += temp;
+		}
+		
+		System.out.println("SUM by Method1 : " + sum);
+		
+		//Method2 , converting list to array
+		
+		Integer[] arrayOfInts = intList.toArray(new Integer[0]);
+		
+		int sum2 =0;
+		
+		for(int j=0; j < arrayOfInts.length; j++) {
+			sum2 += arrayOfInts[j];
+		}
+		
+		System.out.println("SUM by Method2 : " + sum2);
+		
+		//Method 3 - Java8 way
+		int sum3 = 0;
+		intList.forEach(I -> {
+			System.out.println(I);
+		});
+		
+		//Meth
+		
 	}
 
 	private static char[] reverseAnArray(char[] array) {
