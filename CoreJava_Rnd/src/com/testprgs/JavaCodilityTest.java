@@ -10,9 +10,55 @@ public class JavaCodilityTest {
 		//boolean retval = fun1(s);
 		//System.out.println("RET VAL IS : " + retval);
 	
-		int nbr = 268;
-		int xyz = solution(nbr);
-		System.out.println("RETURNED NBR IS : " + xyz);
+		//int nbr = 268;
+		//int xyz = solution(nbr);
+		//System.out.println("RETURNED NBR IS : " + xyz);
+		
+		//test function
+		//int nbr = 268;
+		int nbr = 0;
+		int nbr2 = solution2(nbr);
+		
+		System.out.println("New Number is : " + nbr2);
+		
+	}
+
+	private static int solution2(int nbr) {
+		// TODO Auto-generated method stub
+		
+		//char ch = '9';
+		//int num = Integer.parseInt(String.valueOf(ch));
+		
+		//System.out.println(num);
+		
+		String s = String.valueOf(nbr);
+		
+		char[] array = s.toCharArray();
+		
+		//New array to hold the number
+		char[] newArray = new char[array.length + 1];
+		
+		char ch ;
+		int index =0;
+		for (int i =0; i < array.length; i ++) {
+			
+			//System.out.println(array[i]);
+			ch = array[i];
+			
+			if(Integer.parseInt(String.valueOf(ch)) < 5) {
+				newArray[index++] = '5';
+				newArray[index++] = ch;
+			}
+			else {
+				newArray[index++] = ch;
+			}
+			
+		} //End - for loop
+		
+		String newNbr = new String(newArray);
+		Integer newNumber = Integer.parseInt(newNbr);
+		
+		return newNumber;
 		
 	}
 
