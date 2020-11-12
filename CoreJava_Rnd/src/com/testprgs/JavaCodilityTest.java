@@ -21,6 +21,32 @@ public class JavaCodilityTest {
 		
 		System.out.println("New Number is : " + nbr2);
 		
+		int nbr3 = 1234;
+		treatNumbersAsStrings(nbr3);
+		
+	}
+
+	private static void treatNumbersAsStrings(int number) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("treatNumbersAsStrings Start...");
+		
+		String nbrAsString = String.valueOf(number);
+		
+		char[] array = nbrAsString.toCharArray();
+		
+		for(int i=0; i < array.length; i++) {
+			System.out.println(array[i]);
+			
+			if(Integer.parseInt(String.valueOf(array[i])) < 50) {
+				System.out.println("Value is less than 50...");
+			}
+			
+		}
+		
+		
+		System.out.println("treatNumbersAsStrings End...");
+		
 	}
 
 	private static int solution2(int nbr) {

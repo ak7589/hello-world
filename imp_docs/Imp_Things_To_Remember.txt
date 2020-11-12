@@ -6,3 +6,16 @@ java.lang.class in java
 
 //Good links for "Class" class study in Java - 
 https://www.geeksforgeeks.org/java-lang-class-class-java-set-1/
+
+//Reading on threads
+
+http://tutorials.jenkov.com/java-concurrency/volatile.html
+
+http://tutorials.jenkov.com/java-util-concurrent/java-future.html
+
+//Look at the programming tutorial
+https://app.codility.com/programmers/lessons/1-iterations/
+
+
+//Imp url to refer
+https://dzone.com/articles/using-the-spring-requestmapping-annotation#:~:text=The%20%40RequestMapping%20annotation%20can%20be,more%20specific%20to%20handler%20methods.

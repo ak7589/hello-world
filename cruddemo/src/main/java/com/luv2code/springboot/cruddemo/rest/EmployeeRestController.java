@@ -20,6 +20,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.server.ResponseStatusException;
 
 import com.luv2code.springboot.cruddemo.entity.Employee;
 import com.luv2code.springboot.cruddemo.entity.EmployeeErrorResponse;
@@ -109,7 +110,9 @@ public class EmployeeRestController {
 		Employee theEmployee = employeeService.findById(employeeId);
 		
 		if (theEmployee == null) {
-			throw new RuntimeException("Employee id not found - " + employeeId);
+			//throw new EmployeeNotFoundException("Employee Not Found" + employeeId);
+			throw new ResponseStatusException(HttpStatus.NOT_FOUND,"Employee_Not_Found");
+			//throw new RuntimeException("Employee id not found - " + employeeId);
 		}
 		
 		return theEmployee;
@@ -150,7 +153,8 @@ public class EmployeeRestController {
 		// throw exception if null
 		
 		if (tempEmployee == null) {
-			throw new RuntimeException("Employee id not found - " + employeeId);
+			//throw new RuntimeException("Employee id not found - " + employeeId);
+			throw new ResponseStatusException(HttpStatus.NOT_FOUND,"Employee_Not_Found");
 		}
 		
 		employeeService.deleteById(employeeId);
@@ -158,17 +162,20 @@ public class EmployeeRestController {
 		return "Deleted employee id - " + employeeId;
 	}
 	
+	
 	@ExceptionHandler
-	public ResponseEntity<EmployeeErrorResponse> handleExcpetion(EmployeeNotFoundException ex){
-		
+	public ResponseEntity<EmployeeErrorResponse> handleExcpetion(EmployeeNotFoundException ex) {
+
 		EmployeeErrorResponse error = new EmployeeErrorResponse();
-		
+
 		error.setResStatus(HttpStatus.NOT_FOUND.value());
-		error.setResMessage("Employee Not Found");
-		
-		return new ResponseEntity<>(error,HttpStatus.NOT_FOUND);
-		
+		// error.setResMessage("Employee Not Found");
+		error.setResMessage(ex.getErrorMessage());
+
+		return new ResponseEntity<>(error, HttpStatus.NOT_FOUND);
+
 	}
+	 
 	
 }
 
