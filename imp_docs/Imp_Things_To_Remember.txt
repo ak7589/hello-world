@@ -19,3 +19,6 @@ https://app.codility.com/programmers/lessons/1-iterations/
 
 //Imp url to refer
 https://dzone.com/articles/using-the-spring-requestmapping-annotation#:~:text=The%20%40RequestMapping%20annotation%20can%20be,more%20specific%20to%20handler%20methods.
+
+//Imp URL for reading large files efficiently
+https://www.baeldung.com/java-read-lines-large-file
