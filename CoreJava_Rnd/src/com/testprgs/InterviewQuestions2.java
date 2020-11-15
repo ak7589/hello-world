@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/*
+ * This class contains latest interview questions
+ */
+
 public class InterviewQuestions2 {
 
 	public static void main(String[] args) {
@@ -32,9 +36,69 @@ public class InterviewQuestions2 {
 		 * Show the example of functional interface and its implementation
 		 * using Lambda expression
 		 */
-		
 		demoLambda();
+		
+		//Question no 4
+		/*
+		 * This question is based on the concept of streams api
+		 * to calculate total cost of all items or get total cose
+		 * given the produd
+		 */
+		processProductListAndReturnTotalPrice();
+		
+		//Question no 5
+		/*
+		 * Print odd and even numbers by two threads examole
+		 * Look at the different class file PrintOddEvenThreadExample 
+		 * in the same folder.
+		
+		 */
+		
 
+	}
+
+	private static void processProductListAndReturnTotalPrice() {
+		// TODO Auto-generated method stub
+		
+		ProdItem prod1 = new ProdItem(100,"Mobile 1",2, 10000);
+		ProdItem prod2 = new ProdItem(110,"Mobile 2",3, 7000);
+		
+		ProdItem prod3 = new ProdItem(200,"Laptop 1",3, 40000);
+		ProdItem prod4 = new ProdItem(210,"Laptop 2",4, 35000);
+		
+		//Add all items to the list
+		
+		List<ProdItem> prodItemList = new ArrayList<>();
+		
+		prodItemList.add(prod1);
+		prodItemList.add(prod2);
+		prodItemList.add(prod3);
+		prodItemList.add(prod4);
+		
+		
+		//Try calculating price of all mobiles in the list
+		double totalMobilePrice = prodItemList.stream()
+									.filter(prd -> prd.getProdName().contains("Mobile"))
+									.mapToDouble(prd -> prd.getItemQuantiy() * prd.getPrice())
+									.sum();
+		
+		System.out.println("Total Mobile Price ::: " + totalMobilePrice);		
+		
+		//Try calculating price of all laptops
+		double totalLaptopPrice = prodItemList.stream()
+				.filter(prd -> prd.getProdName().contains("Laptop"))
+				.mapToDouble(prd -> prd.getItemQuantiy() * prd.getPrice())
+				.sum();
+		
+		System.out.println("Total Laptop Price ::: " + totalLaptopPrice);
+		
+		//Try calculating total price
+		double totalPrice = prodItemList.stream()
+				.mapToDouble(prd -> prd.getItemQuantiy() * prd.getPrice())
+				.sum();
+		
+		System.out.println("Total Laptop Price ::: " + totalPrice);
+		
 	}
 
 	private static void demoLambda() {
