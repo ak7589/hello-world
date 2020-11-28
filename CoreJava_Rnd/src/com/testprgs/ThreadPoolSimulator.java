@@ -38,7 +38,13 @@ public class ThreadPoolSimulator {
 		
 		List<Future<Integer>> futureList = new ArrayList<Future<Integer>>();
 		
+		
+		//List<Future<Integer>> futureIntegerList = new ArrayList<Future<Integer>>();
+		
 		//Future<Integer>[] resultArray = new Future<Integer>[3];
+		
+		//working Future<Integer>[] resultArray = new Future[3];
+		
 		
 		//Loop over adderList
 	

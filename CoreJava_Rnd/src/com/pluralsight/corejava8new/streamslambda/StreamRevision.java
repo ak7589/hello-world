@@ -2,6 +2,7 @@ package com.pluralsight.corejava8new.streamslambda;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 public class StreamRevision {
@@ -78,8 +79,11 @@ public class StreamRevision {
 		// TODO Auto-generated method stub
 		
 		User usr1 = new User("Amit");
+		usr1.setAge(47);
 		User usr2 = new User("Gunjan");
+		usr2.setAge(46);
 		User usr3 = new User("Vidut");
+		usr3.setAge(45);
 		User usr4 = new User("");
 		
 		//Define a list of users and add all above users in the userList
@@ -105,12 +109,28 @@ public class StreamRevision {
 		
 		System.out.println("Non-Empty Name Count : " + nonEmptyNameCnt);
 		
+		//Code to convert stream into a list
 		//Create a list of names of user from the above list of User type
 		List<String> userNamesList = userList.stream()
 											.map(usr -> usr.getFirstName())
 											.collect(Collectors.toList());
 		//After creating list of names of the user, print user names
 		userNamesList.forEach(name -> System.out.println(name));
+		
+		
+		//Code to convert stream into map
+				
+		Map<String, Integer> userAgeMap = userList.stream()
+				.filter(user -> ! user.getFirstName().isEmpty())
+				.collect(Collectors.toMap((usr -> usr.getFirstName()), (usr-> usr.getAge())));
+		
+		System.out.println("Printing user age map ....");
+		userAgeMap.forEach((k,v) -> {
+			System.out.println("KEYYYYYYYYY : " + k);
+			System.out.println("VALUEEEEEEEEEEEEEEEE : " + v);
+		});
+		
+											
 		
 		
 	}

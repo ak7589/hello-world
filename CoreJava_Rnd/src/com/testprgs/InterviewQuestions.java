@@ -469,6 +469,32 @@ public class InterviewQuestions {
 		System.out.println("Reversed String : " + reversedString);
 		System.out.println("testReverseString End---");
 		
+		newReverseString();
+		
+	}
+	
+	private static void newReverseString() {
+		
+		System.out.println("newReverseString Start---");
+		
+		String str = "Hello Amit";
+		System.out.println(str);
+		
+		char[] tempArray = str.toCharArray();
+		char[] finalArray = new char[tempArray.length];
+		
+		for (int i = tempArray.length - 1, j = 0; i >=0; i--,j++) {
+			
+			finalArray[j] = tempArray[i];
+			
+		}
+		String str2 = new String(finalArray);
+		
+		System.out.println("ORIGINAL STRING : " + str);
+		System.out.println("REVERSED STRING : " + str2);
+		
+		System.out.println("newReverseString End---");
+		
 	}
 
 }

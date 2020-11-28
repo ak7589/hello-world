@@ -32,7 +32,8 @@ public class WritingDataObjects {
 		
 		List<Person> personList = new ArrayList();
 
-		try (OutputStream os = new FileOutputStream(file); ObjectOutputStream oos = new ObjectOutputStream(os);) {
+		try (OutputStream os = new FileOutputStream(file);
+				ObjectOutputStream oos = new ObjectOutputStream(os);) {
 
 			// Serailize object to output stream
 			//Add persons to the list
@@ -65,7 +66,8 @@ public class WritingDataObjects {
 		Person p1 = new Person("Amit", 46);
 		Person p2 = new Person("Gunjan", 45);
 
-		try (OutputStream os = new FileOutputStream(file); ObjectOutputStream oos = new ObjectOutputStream(os);) {
+		try (OutputStream os = new FileOutputStream(file);
+				ObjectOutputStream oos = new ObjectOutputStream(os);) {
 
 			// Serailize object to output stream
 			oos.writeObject(p1);

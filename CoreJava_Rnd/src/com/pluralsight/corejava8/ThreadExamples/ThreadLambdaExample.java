@@ -1,10 +1,12 @@
 package com.pluralsight.corejava8.ThreadExamples;
 
+import java.util.concurrent.TimeUnit;
+
 public class ThreadLambdaExample {
 
 	private static int cnt;
 
-	public static Runnable runnableImpl = () -> {
+	public static  Runnable runnableImpl = () -> {
 
 		try {
 			while (cnt <= 5) {
@@ -14,6 +16,8 @@ public class ThreadLambdaExample {
 				System.out.println("Thread-Name : " + Thread.currentThread().getName() + " Value " + cnt);
 
 				Thread.sleep(250);
+				
+				//TimeUnit.SECONDS.sleep(1);
 
 			}
 			System.out.println("Exiting : " + Thread.currentThread().getName());

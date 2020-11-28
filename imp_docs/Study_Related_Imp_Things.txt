@@ -668,3 +668,110 @@ total bill =
 62 * 48 + 6 * 58 + 60 = 3384 / total
 
 Last month bill was 3288 /
+
+
+amitks_76@rediffmail.com
+
+My other skype account is,
+ak160310@gmail.com / Newworld@123
+
+first round was hackerrank test. its 2 hr coding test with 5 questions. one question was on collision course which i left as its time consuming. second was easy one inheritance. third was lengthy with writing apis, service and repo on spring boot (github query api). this one was lengthy and would take itself more than 2 hours. last 2 one was sqls. overall a bad experience as first and third really do not fit into 2 hour round and need more time. quite unrealistic expectations.
+
+https://www.baeldung.com/java-memory-management-interview-questions
+
+LinkedBlockingQueue
+
+India Toll Free Number +1800 120 7716,,18164485# (Core Locations)
+
+
+//furniture factory loctaion
+C:\2020\test_1107\2d5b724b-cb47-481b-ab8c-ce0cc40559ff\FurnitureFactory
+
+//Technical responsibilities ------
+Hands-on experience in Core Java
+·        Developing API - Spring boot, Spring Cloud, Spring MVC·
+        Creating UNIT test cases - JUnit, Mockito·
+        Performing load testing·
+        Must be involved in the development of RESTful web service implementations
+·       Writing simple and complex PROC SQL queries in MySQL
+        Experience in Angular will be a plus
+        Applying Design patterns to solve problems· 
+       Knowledge on Memory leakage issues and how to solve them.· 
+       Version Control - Git
+
+//Read for
+Association vs composition vs inheritance
+
+//Below is the result
+
+Welcome to MathUtils class...
+Digit [intArray=[1, 2, 3, 4]]
+
+//Very good read 
+https://howtodoinjava.com/java/basics/java-hashcode-equals-methods/
+
+http://tutorials.jenkov.com/java-util-concurrent/blockingqueue.html
+
+//Concurrent hashmap internal working
+https://howtodoinjava.com/java/multi-threading/best-practices-for-using-concurrenthashmap/
+
+//concurrenthashmap
+https://howtodoinjava.com/java/multi-threading/best-practices-for-using-concurrenthashmap/
+
+// New classroom code - { fqj i ekp }
+
+https://ask.uidai.gov.in/#/
+https://appointments.uidai.gov.in/bookappointment.aspx
+https://appointments.uidai.gov.in/EACenter.aspx
+
+//Amma incometax login
+
+AEOPS6647F / Begusarai@123
+
+http://www.scispl.com/  
+
+https://www.edulab-inc.com/en/company/
+
+·        Hands-on experience in Core Java
+
+·        Developing API - Spring boot, Spring Cloud, Spring MVC
+
+·        Creating UNIT test cases - JUnit, Mockito
+
+·        Performing load testing
+
+·        Must be involved in the development of RESTful web service implementations
+
+·        Writing simple and complex PROC SQL queries in MySQL
+
+·        Experience in Angular will be a plus
+
+·        Applying Design patterns to solve problems
+
+·        Knowledge on Memory leakage issues and how to solve them.
+
+·        Version Control - Git
+
+https://cloud.spring.io/spring-cloud-config/reference/html/
+
+//online test link
+http://n7atwu.com/testing/y1sg4
+
+
+Nagmani Kumar
+
+nagmani.a.kumar@capgemini.com
+
+APr
+May
+June
+July
+Aug
+
+https://drive.google.com/drive/folders/1owUUzxSiQ4AeHaW8U1YFveN7V2Ha-Ajm?usp=sharing
+
+
+https://drive.google.com/drive/folders/1owUUzxSiQ4AeHaW8U1YFveN7V2Ha-Ajm?usp=sharing
+
+
+
