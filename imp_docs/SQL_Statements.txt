@@ -37,5 +37,6 @@ insert into employee_rnd (first_name,last_name,email,salary)
  
 commit
 
+https://stackoverflow.com/questions/21841353/mysql-delete-under-safe-mode
 
 

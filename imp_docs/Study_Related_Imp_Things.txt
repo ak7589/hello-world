@@ -775,3 +775,18 @@ https://drive.google.com/drive/folders/1owUUzxSiQ4AeHaW8U1YFveN7V2Ha-Ajm?usp=sha
 
 
 
+// delete branch locally
+git branch -d localBranchName
+
+// delete branch remotely
+git push origin --delete remoteBranchName
+
+//delete feature2 branch
+
+
+git branch -d feature2
+
+git push origin --delete feature2
+
+//Create new branch remotely
+
