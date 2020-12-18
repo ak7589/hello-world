@@ -40,8 +40,8 @@ public class PlanType implements Serializable {
 	@Column(name = "sys_updated_date", columnDefinition = "TIMESTAMP")
 	private LocalDateTime  sysUpdatedDate;
 	
-	@OneToOne(mappedBy = "planType")
-	private SubscriptionPlan subscriptionPlan;
+	//@OneToOne(mappedBy = "planType")
+	//private SubscriptionPlan subscriptionPlan;
 
 	public String getPlanName() {
 		return planName;

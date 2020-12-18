@@ -37,8 +37,8 @@ public class ProductLevel implements Serializable {
 	@Column(name = "sys_updated_date", columnDefinition = "TIMESTAMP")
 	private LocalDateTime  sysUpdatedDate;
 	
-	@OneToOne(mappedBy = "prodLevel")
-	private Product product;
+	//@OneToOne(mappedBy = "prodLevel")
+	//private Product product;
 
 	
 	public long getLevelId() {
@@ -89,13 +89,11 @@ public class ProductLevel implements Serializable {
 		this.sysUpdatedDate = sysUpdatedDate;
 	}
 
-	public Product getProduct() {
-		return product;
-	}
-
-	public void setProduct(Product product) {
-		this.product = product;
-	}
+	/*
+	 * public Product getProduct() { return product; }
+	 * 
+	 * public void setProduct(Product product) { this.product = product; }
+	 */
 	
 	
 

@@ -31,8 +31,8 @@ public class ProductCategory implements Serializable {
 	@Column(name = "sys_updated_date", columnDefinition = "TIMESTAMP")
 	private LocalDateTime  sysUpdatedDate;
 	
-	@OneToOne(mappedBy = "prodCategory")
-	private Product product;
+	//@OneToOne(mappedBy = "prodCategory")
+	//private Product product;
 
 	public long getCategoryId() {
 		return categoryId;
@@ -66,13 +66,11 @@ public class ProductCategory implements Serializable {
 		this.sysUpdatedDate = sysUpdatedDate;
 	}
 
-	public Product getProduct() {
-		return product;
-	}
-
-	public void setProduct(Product product) {
-		this.product = product;
-	}
+	/*
+	 * public Product getProduct() { return product; }
+	 * 
+	 * public void setProduct(Product product) { this.product = product; }
+	 */
 	
 	
 
