@@ -646,6 +646,17 @@ https://www.youtube.com/watch?v=3suWQU9two8
 //Top udemy courses
 https://blog.teachinguide.com/how-much-do-udemy-instructors-make/
 
+//December calculstio
+18 days taken 
+18*2 = 36 kg * 48 = 1728
+
+4kg full fulcraem - 4*58= 232
+
+delivery = 60
+
+tot - 1728 + 232 + 60 = 2020
+
+
 /Oct 31 calculation
 
 1kg - 48
@@ -789,4 +800,84 @@ git branch -d feature2
 git push origin --delete feature2
 
 //Create new branch remotely
+
+//i tried git branch -d storypp62 , while i was in that branch in "git bash". That gave me an error.
+//now i switched to another branch "develop_subscription". this was done with command # git checkout develop_subscription
+
+
+To create user in MySQL/MariaDB 5.7.6 and higher, use CREATE USER syntax:
+
+CREATE USER 'new_user'@'localhost' IDENTIFIED BY 'new_password';
+then to grant all access to the database (e.g. my_db), use GRANT Syntax, e.g.
+
+GRANT ALL ON my_db.* TO 'new_user'@'localhost';
+Where ALL (priv_type) can be replaced with specific privilege such as SELECT, INSERT, UPDATE, ALTER, etc.
+
+Then to reload newly assigned permissions run:
+
+FLUSH PRIVILEGES;
+
+
+{
+    "memberId" : "ak7589",
+	
+"prodList" : [
+   {
+      "productCode":"71",
+      "productName":"SUKEN_LEVEL1_PREMIUM"
+   },
+   {
+      "productCode":"31",
+      "productName":"EIKEN_LEVEL1_PREMIUM"
+   },
+   {
+      "productCode":"51",
+      "productName":"KANKEN_LEVEL1_PREMIUM"
+   }
+]
+
+}
+
+
+[
+   {
+      "id":28,
+      "Title":"Sweden"
+   },
+   {
+      "id":56,
+      "Title":"USA"
+   },
+   {
+      "id":89,
+      "Title":"England"
+   }
+]
+//Working fine --- Request JSON for the API /generateBill
+
+{
+   "memberId":"ak7589",
+   "prodList":[
+      {
+         "productCode":"71",
+         "productName":"SUKEN_LEVEL1_PREMIUM"
+      },
+      {
+         "productCode":"31",
+         "productName":"EIKEN_LEVEL1_PREMIUM"
+      },
+      {
+         "productCode":"51",
+         "productName":"KANKEN_LEVEL1_PREMIUM"
+      }
+   ]
+}
+
+//Sample Product discount database model
+https://vertabelo.com/blog/offers-deals-and-discounts-a-product-pricing-data-model/
+
+https://dba.stackexchange.com/questions/105914/modeling-discounts-product-specific-and-customer-specific-discounts
+
+
+
 
