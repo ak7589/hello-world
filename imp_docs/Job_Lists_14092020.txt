@@ -1,0 +1,34 @@
+1. 
+
+https://www.naukri.com/job-listings-Java-Lead-Richmond-Technologies--Bengaluru-Bangalore-Chennai-Pune-9-to-14-years-100920005131?xp=1&src=ja1018908&xid=1018908%255Egm%255E105008081&uid=105008081&alertId=&utm_campaign=jobalert_revamp&utm_medium=email&utm_source=joblink&utm_content=4e68dfe5e03f8446575e27405bd3f7da27e129d7e2373f8bcdf3e35370f49177
+
+
+10+ years experience in in the role of implementation of high end software products.
+Smart Java + Spring Boot engineers with strong problem-solving skills, and able to thrive with minimal supervision
+Knowledge of REST API design principals
+Core Java, Java 1.8 and above - Must
+Spring CORE, Spring REST, Spring Boot, Spring Data, Spring Microservice - Must
+Knowledge on Spring Cloud is added advantage
+Ability to work with ease in Linus/UNIX environment and large scale architecture environments
+Good communication skills, behavior skills and interpersonal skills
+Well versed with source control tools like GIT/SVN
+Ability to ramp-up quickly
+Excellent written and oral communication skills
+
+2.
+https://www.naukri.com/job-listings-Technical-Lead-Java-EXFO-Electro-Optical-Engineering-India-Pvt-Ltd--Pune-10-to-14-years-261219010609?xp=2&src=ja1018908&xid=1018908%255Egm%255E105008081&uid=105008081&alertId=&utm_campaign=jobalert_revamp&utm_medium=email&utm_source=joblink&utm_content=4e68dfe5e03f8446575e27405bd3f7da27e129d7e2373f8bcdf3e35370f49177
+
+Strong knowledge of OOP software design concepts and design patterns.
+Strong front end skills in Angular, HTML5 and CSS
+Extensive experience in Core Java 6 or higher for both J2SE and J2EE (Swing, Collections, File handling, XML, TCP/IP Socket Programming, JSP, Servlet)
+Good expertise in one of the RDBMS (Oracle, Sybase, My SQL)
+Good expertise with REST or Node JS framework.
+Strong programming skills on Multi-threading/concurrency and JDBC.
+Strong experience designing / developing with n-tier architectures (UI, Business Logic Layer, Data Access Layer)
+Strong competency in Data structures and algorithms.
+Should be well versed with synchronous and asynchronous messaging/notification technologies.
+Sound knowledge on Unit Test Frameworks (JUnit/JBehave)
+Should have extensive knowledge of Linux and Linux shell scripting.
+Knowledge on Web/Application Servers like Apache Tomcat, JBoss
+
+3.

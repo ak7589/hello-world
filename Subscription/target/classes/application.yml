@@ -1,0 +1,45 @@
+logging.level:
+  org.springframework.web: DEBUG
+  org.springframework.security: DEBUG
+
+
+spring:
+    application:
+        name: edulab-sgfm-dev-service-prometheus
+    http:
+        log-request-details: true
+    autoconfigure:
+        exclude: org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration
+    datasource:
+        url: jdbc:mysql://localhost:3306/subscription?useUnicode=yes&characterEncoding=UTF-8
+        username: subscription
+        password: P@ssw0rd
+        initialization-mode: always
+        platform: mysql
+    jpa:
+        show-sql: true
+        hibernate:
+            ddl-auto: none
+            naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+
+ 
+server:
+    error:
+        whitelabel:
+            enabled: false
+    port: 8080
+ 
+host: http://localhost:8080
+
+cognito:
+    enable: false
+    client-id: 1tekqghd2iolir9v035btjtdp0
+    client-secret: 1hbdlahl4ci94na4gq94t2e4qsi8l0opq919dqavj5gi6f53bajq
+    key-set-uri: https://cognito-idp.ap-northeast-1.amazonaws.com/ap-northeast-1_qnEBQT8Im/.well-known/jwks.json
+    tokenUrl: https://ep.dev.studygear.jp/accounts/api/auth/token
+    redirectUrl: http://localhost:8080/login2/oauth2/code/sgep-accounts
+    scope: openid
+    basicAuth: sgepuser:9tg6gxxCEaL3

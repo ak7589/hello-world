@@ -1,0 +1,134 @@
+create table users (username varchar(50) not null primary key,
+  password varchar(50) not null,
+  enabled boolean not null);
+  
+
+create table authorities (  
+	username varchar(50) not null,
+    authority varchar(50) not null,
+    constraint fk_authority_users foreign key(username)
+    references users(username));
+
+create unique index ix_auth_username on authorities(username,authority);
+
+localhost:8080/FitnessTracker/index.jsp
+
+//Few security related questions
+http://www.javainterview.in/p/security-interview-questions.html
+
+insert into users (username,password,enabled)
+values ("amit","secret",true);
+
+commit;
+
+insert into authorities (username,authority)
+values ("amit", "ROLE_USER");
+
+select * from users
+
+select * from authorities
+
+<reporting>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-pmd-plugin</artifactId>
+        <version>3.12.0</version>
+      </plugin>
+    </plugins>
+</reporting>
+
+//MySQL database 
+user - root
+password - begusarai
+
+FitnessTracker - Spring Security project
+ride-tracker - Spring JDBC project
+
+bhati wifi passwd - syg5g1g4ij
+home wifi passwd - Newworld@123
+
+	//URL of application being used in the development of spring security
+	http://localhost:8080/FitnessTracker/greeting.html
+	http://localhost:8080/FitnessTracker
+	http://localhost:8080/FitnessTracker/addMinutes.html
+	
+	//Spring security demo project
+	user - amit
+	password - secret
+	//please note that password for this user is stored in the database and is emcoded with md5 algorithm
+	url - http://localhost:8080/FitnessTracker
+
+	Pay 2428 on cit credit card
+
+Date - 26082019
+Bought 2 courses today.
+ 1. 
+ 
+ 
+  Table 'photo_app.hibernate_sequence' doesn't exist
+  
+  2019-08-28 18:06:45.830  WARN 7580 --- [nio-8080-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1146, SQLState: 42S02
+2019-08-28 18:06:45.831 ERROR 7580 --- [nio-8080-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : Table 'photo_app.hibernate_sequence' doesn't exist
+2019-08-28 18:06:45.949 ERROR 7580 --- [nio-8080-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.InvalidDataAccessResourceUsageException: error performing isolated work; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: error performing isolated work] with root cause
+
+java.sql.SQLSyntaxErrorException: Table 'photo_app.hibernate_sequence' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	
+//Below link helped for java.sql.SQLSyntaxErrorException: Table 'photo_app.hibernate_sequence' doesn't exist problem
+https://stackoverflow.com/questions/32968527/hibernate-sequence-doesnt-exist
+
+//Below link helped for java.sql.SQLSyntaxErrorException: Table 'photo_app.users' doesn't exist
+https://stackoverflow.com/questions/49813666/table-dbname-hibernate-sequence-doesnt-exist/49813851	
+
+//How to show empty packages in STS / (or eclipse). This answer was also found on the stackoverflow.com. Below is the link,
+https://stackoverflow.com/questions/24107305/is-there-a-way-to-make-empty-packages-visible-in-eclipse
+
+//Search jobs on indeed website
+
+//Doctor's Appointment No for Amma
+Phone number
+020 7117 7316
+Dial the extension given below after the call connects
+Ext. 463
+
+https://careers.vodafone.com/Apply?jid=27879
+
+//Momo link
+https://www.youtube.com/watch?v=RZS2qHl215M
+https://food.ndtv.com/food-drinks/beyond-bhujia-eat-your-way-through-bikaner-2093102?pfrom=home-recipes
+
+
+Goals have list of exercises
+i.e - lot of exercises can point to one goal
+
+Goal table attributes, minutes and list of activities
+Activity table primary attributes,
+	minutes and activity (String)
+
+
+//Imp Links
+https://www.geeksforgeeks.org/intstream-sum-java/
+
+Omron NE-C25S Compressor Nebulizer
+
+newlife - 1450/-
+
+
+Colors TV HD
+https://reelrundown.com/tv/Popular-Old-Doordarshan-Serials-And-How-to-Watch-Them-Now
+
+Bhart gmail passwd - Darbhangapune@123
+
+Imp Website Links for study
+https://www.baeldung.com/java-anonymous-classes
+
+//Book this particular beach resort
+MTDC Beach Resort Harihareshwar
+
+//Maharashtra (MTDC) WebSite page
+
+My GIT credentials :-
+ak7589 / Begusarai@987
+

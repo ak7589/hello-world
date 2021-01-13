@@ -38,6 +38,10 @@ public class EnumExample {
 					System.out.println("Fur Type : " + fur.label());
 					System.out.println("Fur Cost : " + fur.cost());
 				}
+				
+			Furniture fur1 = Furniture.CHAIR;
+			
+			System.out.println("Chair COST IS ::: " + fur1.cost());
 		
 	}
 

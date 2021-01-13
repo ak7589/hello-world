@@ -1,0 +1,883 @@
+Youtube channel - java coding skills- 
+
+//Look at this website for core Java coding test -https://www.pskills.org/corejava.jsp
+
+
+//Youtube link for good chemistry books
+https://www.youtube.com/watch?v=9sCkzh3mWyk 
+Above link came after entering search string = "i.sc chemistry by h c srivastava review"
+
+//Tutorials point link for design pattern
+https://www.tutorialspoint.com/design_pattern/builder_pattern.htm
+
+//Decorator design pattern i read from below link
+https://javapapers.com/design-patterns/decorator-pattern/
+
+//Other populare design pattern to read for
+Facade Design Pattern
+Bridge Design Pattern
+Adapter Design Pattern
+
+Strategy Pattern Notes : - 
+
+1. Externalizes alogorithm
+2. Client knows different strategy
+3. Typically there is a class per strategy
+4. Reduces conditional statement
+
+We have example of Credit card demo where we have diffferent strategy for the credit card validation depending upon credit card type i.e 
+visa card / or master card. We have a ValidationStrategy abstract class and it has two implementations one each for Visa credit card and Master credit card.
+Credit card class has private member variable of type ValidationStrategy and appropriate class is passes to the Credit card at creation time through constructor
+
+
+Template Pattern Demo...
+
+1. It gurantees algorithm adherence. For example we defineed a abstract class OrderTemplate and it has a final method processOrder...By making this mmethod final we mase sure that
+it cannot be over-ridlden...So child classes like WebOrder and StoreOrder can just override methods which are called in the final method "processOrder". That is whay it is called
+
+"algorithm adherence".
+
+
+;lkdlsdklkd
+
+Below Java Courses on the Pluralsight :- 
+1. Java fundamentals : The Core Platform
+
+2. Java fundamentals : The Java language
+
+Will get call from Mahesh today at 4 PM
+
+//Looked method overloading at below URl
+https://beginnersbook.com/2013/05/method-overloading/
+
+//IMP::: password of linux machines on VMWARE is : Login - root   , Password - 123
+
+
+/////////////////////////////////////////////17012020 START///////////////////////////////////////////////////////////
+
+spring-rest-demo
+
+/////////////////////////////////////////////17012020 END /////////////////////////////////////////////////////////////
+Download spring security code of Bryan Hansen from the below url 
+https://github.com/bh5k/spring_mvc_base
+http://localhost:8080/FitnessTracker/index.jsp - this is the url of Spring security application of Bryan Hansen
+
+
+
+//Below is the URL of Spring Security application i am running
+http://localhost:8080/FitnessTracker_Security_Bryan/index.jsp
+
+groupId - org.springframework.security
+artifactId - spring-security-web
+version - 3.2.0.RELEASE
+
+groupId - org.springframework.security
+artifactId - spring-security-config
+version - 3.2.0.RELEASE
+
+
+groupId - commons-logging
+artifactId - commons-logging
+version - 1.1.1
+
+//Creating an user in the Oracle database 
+-- Create a user
+CREATE USER plsqldev IDENTIFIED BY plsqldev;
+--Grant permissions
+GRANT CONNECT, RESOURCE, DBA TO plsqldev;
+
+CustomerID	CustomerName	ContactName	Address	City	PostalCode	Country
+
+//Valid Create Customer table SQL statement
+Create table CUSTOMERS
+(
+CustomerID NUMBER(5),
+Salary NUMBER(10),
+CustomerName VARCHAR2(100),
+ContactName VARCHAR2(100),
+Address VARCHAR2(100),
+City VARCHAR2(100),
+PostalCode VARCHAR2(10),
+Country VARCHAR2(100),
+CONSTRAINT PK_CUSTOMER PRIMARY KEY (CustomerID)
+);
+
+//Below Query is working 
+select * from (select * from customers order by salary desc) where rownum <=3
+
+//Below query is working
+select country, count(*) from customers group by country having country <> 'UK'
+//The HAVING clause was added to SQL because the WHERE keyword could not be used with aggregate functions.
+
+//Below query is not working
+select country, count(*) from customers group by country where country <> 'UK'
+
+//Below is the excellent page to learn SQL
+https://www.w3schools.com/sql/sql_having.asp
+
+//SQL Statement of creation of Orders tables
+Create table Orders
+(
+OrderID NUMBER(5),
+CustomerID NUMBER(10),
+EmployeeID NUMBER(10),
+OrderDate DATE,
+ShipperID NUMBER(10),
+CONSTRAINT PK_ORDER PRIMARY KEY (OrderID)
+);
+
+//Creation of Employees table
+
+Create table Employees
+(
+EmployeeID NUMBER(5),
+LastName VARCHAR2(50),
+FirstName  VARCHAR2(50),
+BirthDate DATE,
+Notes VARCHAR2(100),
+CONSTRAINT PK_EMPLOYEE PRIMARY KEY (EmployeeID)
+);
+
+//Both these queries are working
+select A.CustomerName , B.OrderDate from customers A inner join orders B 
+on a.customerid = b.customerid
+
+select A.CustomerName , B.OrderDate from customers A LEFT JOIN orders B 
+on a.customerid = b.customerid
+
+//Please see VMWARE configuration problem in this file below,
+C:\Users\Administrator\Documents\Virtual Machines\RedHat_7.2_New_120319\RedHat_7.2_New_120319.vmx
+
+
+//Few important things about newly installed about Oracle 11 express edition. Below services are running,
+	OracleServiceXE
+	OracleXETNSListener
+
+server.port=8585
+spring.datasource.url=jdbc:mysql://localhost:3306/web_customer_tracker?useSSL=false&ServerTimezone=UTC
+spring.datasource.username=springstudent
+spring.datasource.password=springstudent
+
+//Look at the below url 
+https://docs.spring.io/spring-data/jpa/docs/current/api/org/springframework/data/jpa/repository/JpaRepository.html
+
+//Conbtext root of Spring Security Project :- 
+FitnessTracker_Security_Bryan
+
+//Design Pattern
+//Adapter design pattern description
+https://dzone.com/articles/adapter-design-pattern-in-java
+
+//Simple and good UML diagram tutorial
+https://www.youtube.com/watch?v=UI6lqHOVHic&t=193s
+
+
+
+//Tutorials point link for design pattern
+https://www.tutorialspoint.com/design_pattern/builder_pattern.htm
+
+//Decorator design pattern i read from below link
+https://javapapers.com/design-patterns/decorator-pattern/
+
+//Current Maven Config in STS - C:\Users\Administrator\.m2\repository
+
+C:\Users\Administrator\.m2\settings.xml - settings file
+
+//Abstract factory 
+https://www.baeldung.com/java-abstract-factory-pattern
+https://www.baeldung.com/creational-design-patterns
+
+Spring cloud course git url 
+https://github.com/in28minutes/spring-microservices
+
+/Normal workspace for Spring Projects
+C:\dev\workspace
+
+//Read here
+http://tutorials.jenkov.com/java/nested-classes.html
+
+//Good link to study
+https://www.geeksforgeeks.org/java-lang-class-class-java-set-1/
+
+//Pluralsight java courses from "jose paumard" are excellent : - 
+we are going through Jose Paumard courses ...remember this
+
+//Final variables in java - excellent
+https://www.geeksforgeeks.org/final-keyword-java/
+https://www.geeksforgeeks.org/comparable-vs-comparator-in-java/
+
+//Look at these below github link when u have some time
+https://www.baeldung.com/java-char-sequence-string
+https://github.com/eugenp/tutorials/tree/master/core-java-modules/core-java-string-apis
+
+////////////////////////////////////////////////////////20042020 START //////////////////////////////////////////////////////////////
+//Reading UML diagram basics from below URL
+https://www.youtube.com/watch?v=2ucRPUyGS_U
+
+
+////////////////////////////////////////////////////////20042020 END //////////////////////////////////////////////////////////////
+
+https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-aggregation-vs-composition/
+
+//hibernate interview questions
+https://www.onlineinterviewquestions.com/hibernate-interview-questions-answers/
+
+//Look at the below link for hibernate life cycle
+https://www.javatpoint.com/hibernate-lifecycle
+
+Docker course URL :-
+https://www.udemy.com/course/docker-tutorial/?utm_content=promo&utm_campaign=2020-04-28&utm_source=email-sendgrid&utm_term=278531&utm_medium=1349660&couponCode=8004308E46BDE7B5EC4B
+
+//Study of java.util.concurrent package at below url
+http://tutorials.jenkov.com/java-util-concurrent/index.html
+
+Download Source Code:
+
+You can download all of the source code used in the course.
+
+http://www.luv2code.com/download-advanced-hibernate-source-code
+
+---
+Download PDF Files
+
+All slides which are shown during the course are available also as a reference and can be downloaded here:
+
+http://www.luv2code.com/download-advanced-hibernate-pdfs
+
+///////////////////////////////////////////////////////////////09052020 START //////////////////////////////////////////////////////////////////
+
+//Segregating workspaces - Making Advance Hibernate workspace to separate workspace
+C:\2020\dev\Chad-darby\0508\solution-code-hibernate-hb-01-map-collections-set
+
+//Creating a new workspace
+C:\2020\dev\advhibernate_workspace
+
+//The other workspace which contains most of other projects is - C:\dev\workspace
+
+
+///////////////////////////////////////////////////////////////09052020 END /////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////18052020 START //////////////////////////////////////////////////////////////////////////////////
+
+1. Spring Security: Authentication / Authorization - Building Effective Layers of Defense
+By Wojciech Lesniak
+
+////////////////////////////////////////////////////18052020 END //////////////////////////////////////////////////////////////////////////////////
+
+//Read below url for spring security interview questions and take appropriate info from the course
+https://www.dineshonjava.com/spring-security-interview-questions-and-answers/
+
+//Very important - Below is the link of UML class diagram study material reference link
+UML Class Diagrams: Reference: https://msdn.microsoft.com/library/dd409437%28VS.140%29.aspx
+
+Also look at :- https://stackoverflow.com/questions/1874049/explanation-of-the-uml-arrows
+
+
+//Spring Microservice Course :- 
+
+
+"On this happy occasion of Eid-ul-Fitr, I wish you and your family a very happy Eid.
+
+
+/////////////////////////////////////////////////////////////////////////25052020 START ////////////////////////////////////////////////////////
+
+1. Started course on Test - driven development
+
+Once you complete this course - then mention this in your resume - this is important
+
+/////////////////////////////////////////////////////////////////////////25052020 END ////////////////////////////////////////////////////////
+
+http://localhost:8080/FitnessTracker/
+
+//Reading collection questions from below link
+https://www.javapedia.net/List-and-its-implementations#qanda626
+
+//very imp questions
+https://www.javapedia.net/List-and-its-implementations#qanda585
+
+//Read below blog
+http://misko.hevery.com/2008/12/15/static-methods-are-death-to-testability/
+
+//Go to below blog
+https://www.vojtechruzicka.com/
+
+//Search courses on pluralsight by Author names
+
+Jose Paumard courses
+
+Advanced Java Concurrent Patterns
+
+-----------------------------------------------------------------------------------------------------
+//Below SQL statement worked fine
+
+CREATE DATABASE  IF NOT EXISTS `employee_directory`;
+USE `employee_directory`;
+
+--
+-- Table structure for table `employee`
+--
+
+DROP TABLE IF EXISTS `employee`;
+
+CREATE TABLE `employee` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `first_name` varchar(45) DEFAULT NULL,
+  `last_name` varchar(45) DEFAULT NULL,
+  `email` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
+
+--
+-- Data for table `employee`
+--
+
+INSERT INTO `employee` VALUES 
+	(1,'Leslie','Andrews','leslie@luv2code.com'),
+	(2,'Emma','Baumgarten','emma@luv2code.com'),
+	(3,'Avani','Gupta','avani@luv2code.com'),
+	(4,'Yuri','Petrov','yuri@luv2code.com'),
+	(5,'Juan','Vega','juan@luv2code.com');
+
+
+-------------------------------------------------------------------------------------------------------------
+
+//Just by puting below line pom file red error goes away
+
+Practice core java quiz here
+https://www.javatpoint.com/core-java-quiz
+
+total bill to pay - 2336
+
+accomplish
+accurate 
+announce
+
+////////////////////Mail settings
+Note that i have signed in the https://mailtrap.io website using my email - ak160310@gmail.com
+
+Below are the SMPTP server details
+Credentials
+Reset SMTP/POP3
+SMTP
+Host:
+smtp.mailtrap.io
+Port:
+25 or 465 or 587 or 2525
+Username:
+1e036327938e4c
+Password:
+b5f6f6fef5b4dc
+
+
+Auth:
+PLAIN, LOGIN and CRAM-MD5
+TLS:
+Optional (STARTTLS on all ports)
+POP3
+Host:
+pop3.mailtrap.io
+Port:
+1100 or 9950
+Username:
+1e036327938e4c
+Password:
+b5f6f6fef5b4dc
+Auth:
+USER/PASS, PLAIN, LOGIN, APOP and CRAM-MD5
+TLS:
+Optional (STARTTLS on all ports) 
+
+//Good link for ForgeRock documentation - https://backstage.forgerock.com/docs/idm/6/integrators-guide/
+
+//Go through this link for processing very large file in Java
+https://www.baeldung.com/java-read-lines-large-file
+
+
+
+//URL for merging conflicts in github
+https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/resolving-a-merge-conflict-using-the-command-line
+
+//Queue implementation
+https://docs.oracle.com/javase/tutorial/collections/implementations/queue.html
+
+https://docs.oracle.com/javase/tutorial/collections/implementations/queue.html
+
+
+
+https://www.geeksforgeeks.org/transaction-isolation-levels-dbms/
+
+https://www.youtube.com/watch?v=licjBYeWKks
+https://www.youtube.com/watch?v=licjBYeWKks
+
+//18082020
+//Look at this below link
+https://plumbr.io/handbook/garbage-collection-in-java
+
+//Some imp tips on heap dump
+https://www.ibm.com/support/knowledgecenter/en/SS3KLZ/com.ibm.java.diagnostics.memory.analyzer.doc/heapdump.html
+
+//Important link for Java interview questions
+https://javarevisited.blogspot.com/2011/05/java-heap-space-memory-size-jvm.html
+
+https://dzone.com/articles/minor-gc-vs-major-gc-vs-full
+
+https://www.ncertbooks.guru/mothers-day-essay/
+
+//Mothers day essay
+http://www.fastread.in/explore?infoID=945#:~:text=Essay%205%20on%20Mother's%20Day,in%20the%20school%20by%20invitation.
+
+//root password of MySQL is begusarai
+
+//Looking at this good URL for hibernate
+https://www.journaldev.com/2882/hibernate-tutorial-for-beginners
+
+//SessionFactory details - description 
+
+//connection pooling
+https://www.informit.com/articles/article.aspx?p=353736&seqNum=4#:~:text=Opening%20a%20connection%20to%20a,to%20application%20code%20as%20needed.
+
+Which video Chad Darby appears ?
+
+Ans - Spring Hibernate course - OneToOne - Write Some Code - Build Main App - Part 2
+
+//One-To-Many vs Many-To-One difference in hibernate
+
+//Below is the very useful documentation on the @JoinCoulumn 
+https://www.udemy.com/course/spring-hibernate-tutorial/learn/lecture/8164036#overview
+
+Also refer below link 
+https://docs.oracle.com/javaee/7/api/javax/persistence/JoinColumn.html
+
+//Further study on hibernate caching
+https://docs.jboss.org/hibernate/orm/5.2/userguide/html_single/chapters/caching/Caching.html
+
+//Hibernate caching info
+https://www.javapedia.net/Hibernate-Caching
+
+//Links for the Hibernate Query Language
+https://www.tutorialspoint.com/hibernate/hibernate_query_language.htm
+
+//Links for the Hibernate native query etc
+https://www.tutorialspoint.com/hibernate/hibernate_native_sql.htm
+https://www.tutorialspoint.com/hibernate/hibernate_native_sql.htm
+
+//Hibernate caching read
+https://www.tutorialspoint.com/hibernate/hibernate_caching.htm
+
+//Collection useful link
+https://www.geeksforgeeks.org/difference-and-similarities-between-hashset-linkedhashset-and-treeset-in-java/
+
+//Use below link for Collection interview question practice
+
+Searched for "retainall and removeall in java" in google and then we got below link
+https://www.javapedia.net/List-and-its-implementations/771#:~:text=removeAll%20method%20removes%20the%20collection,the%20specified%20collection%20of%20elements.&text=retainAll%20method%20retains%20the%20collection,it%20removes%20all%20other%20elements.
+
+
+Rina Clairvoyant
+
+//Interview topics :------------------------
+Strong Java engineer with full-stack experience
+Tech savvy engineer - willing and able to learn new skills, track industry trends
+Strong programming skills with 8 + years experience
+Good knowledge of Service based architecture
+Understanding and working experience of Java, Multi threading
+Web services - REST or SOAP; Microservices; Domain driven architecture
+Spring framework basics - IOC, DI, Spring Boot, other modules of Spring, Hibernate / some ORM framework
+Web application fundamentals
+Front-end experience in technologies such as HTML5, CSS3, Angular or React
+Git, Jenkins, SonarQube and other tools
+SQL and/or NoSQL databases
+Understanding of design patterns, common concepts such as caching, logging,
+//Interview topics :------------------------
+
+
+//Spring interview questions
+
+//From glassdoor collect questions for Clairvoyant
+Core java basics, Spring boot, Collections. 
+
+Golden Acre - Ankita Salunke - 83294 - 59880
+
+//Study link for the Future interface Java
+http://tutorials.jenkov.com/java-util-concurrent/java-future.html#:~:text=Future%20%2C%20represents%20the%20result%20of,Java%20Future%20object%20is%20returned.&text=In%20the%20case%20of%20the,to%20execute%20concurrently%20(asynchronously).
+
+//Interview Question
+Why string is immutable?
+How hashmap works internally?  
+Core java basics, Spring boot, Collections
+Reverse string with out using split 
+Group by sql queries  
+
+How to use custom key for HashMap? What precaution should be taken for same?  
+Performance of hashmap if hascode() returns same value every time
+Spring core concepts  
+Some SQL queries.
+1. Over loading vs overriding
+2. OLTP and OLAP
+3. Jenkins setup , cron to drive project
+4. Final vs finally in java
+What is a hast table, and make a real example where it is used  
+How would you extend an array with a fix sized?  - Java coding
+How does a hashtable work
+
+GIT Password of asinha.kumar@gmail.com / ak7589@123
+
+git config --global core.excludesfile ~/.gitignore
+
+//Download eclipse from this link
+https://www.eclipse.org/downloads/
+
+	meet.google.com/eeo-rtvj-yzr
+	
+		Join by phone		(US) +1 575-323-9114 (PIN: 113030688)
+
+//Look at this link
+https://www.javatpoint.com/binary-search-in-java
+
+//Look at this link
+//Transactional isolation vevel of Hibernate (V.IMP)
+
+https://stackoverflow.com/questions/16162357/transaction-isolation-levels-relation-with-locks-on-table
+
+901.25
+
+837.25
+
+64 rupees difference
+ORDER # 406-1383685-1746767
+Shipment 1: 13 September 2020 - Visa ending in 3599:   901.25
+
+//Transaction isolation levels
+https://docs.microsoft.com/en-us/sql/odbc/reference/develop-app/transaction-isolation-levels?view=sql-server-ver15#:~:text=Transaction%20isolation%20levels%20are%20a,has%20not%20yet%20been%20committed.
+
+//Very good read about hibernate transaction control
+https://docs.jboss.org/hibernate/orm/4.3/manual/en-US/html/ch13.html
+
+//very imp
+https://www.baeldung.com/spring-transactional-propagation-isolation
+
+Project: Industrial Tablet PC
+
+Project Description : This project was to build Tablet for various industries as per their need. 
+					  iMX6 was the base platform for the development of tablet. Once base platform
+					  is chosen then other various components of tablet like Touch and Display, WiFi,
+					  Power management, Charging are chosen as per the client need. Code development 
+					  needs to be done in the Android layer so that these devices can work properly
+					  on iMX6 platform. 
+		
+Client		HKI India Pvt Ltd
+		
+Environment:	Core Java, Linux, Putty, Mfg Tool, C, C++
+		
+Role:		Senior Developer
+
+Role & Responsibility :
+
+•	Development and support of Display and Touch module.
+•	Development and support of Camera module.
+•	Development and support of Power management and Charger interface.
+•	Development and support of WiFi interface
+
+
+//Below are the more god study links
+https://www.baeldung.com/spring-postconstruct-predestroy
+
+//Spring interview questions
+https://www.journaldev.com/2696/spring-interview-questions-and-answers#spring-bean-scopes
+
+
+//Oauth related URL's
+https://www.youtube.com/watch?v=bzGKgC3N7SY
+
+//Oauth on the high level
+https://www.youtube.com/watch?v=t4-416mg6iU
+
+@Controller Vs @RestController
+https://javarevisited.blogspot.com/2017/08/difference-between-restcontroller-and-controller-annotations-spring-mvc-rest.html#:~:text=1.,of%20%40Controller%20%2B%20%40ResponseBody.&text=Spring%20boot%20really%20makes%20it%20easy%20to%20develop%20REST%20APIs%20with%20spring.
+
+cpllection vs streams
+
+//Functional programming definition
+Functional programming (often abbreviated FP) is the process of building software by composing pure functions, avoiding shared state, mutable data, and side-effects. Functional programming is declarative rather than imperative, and application state flows through pure functions.
+
+//Functional interface
+A functional interface in Java is an interface that contains only a single abstract (unimplemented) method. A functional interface can contain default and static methods which do have an implementation, in addition to the single unimplemented method
+
+//Why to use functional interfaces
+The major benefit of java 8 functional interfaces is that we can use lambda expressions to instantiate them and avoid using bulky anonymous class implementation. Java 8 Collections API has been rewritten and new Stream API is introduced that uses a lot of functional interfaces.
+
+//Java8 features
+Lambda expressions,
+Method references,
+Functional interfaces,
+Stream API,
+Default methods,
+Base64 Encode Decode,
+Static methods in interface,
+Optional class,
+
+//What is stream in Java8 
+Introduced in Java 8, the Stream API is used to process collections of objects. A stream is a sequence of objects that supports various methods which can be pipelined to produce the desired result. ... Terminal operations mark the end of the stream and return the result
+
+//Spring IOC Container
+https://www.tutorialspoint.com/spring/spring_ioc_containers.htm#:~:text=The%20Spring%20container%20is%20at,that%20make%20up%20an%20application.
+
+There are basically two types of IOC Containers in Spring: BeanFactory: BeanFactory is like a factory class that contains a collection of beans. It instantiates the bean whenever asked for by clients. ApplicationContext: The ApplicationContext interface is built on top of the BeanFactory interface
+
+//Spring beans scope
+https://www.tutorialspoint.com/spring/spring_bean_scopes.htm#:~:text=If%20the%20scope%20is%20set,singleton%20scope%20for%20stateless%20beans.
+
+//Spring profiles
+https://dzone.com/articles/spring-boot-profiles-1
+
+//What is AutoWiring ?
+Autowiring feature of spring framework enables you to inject the object dependency implicitly. It internally uses setter or constructor injection. Autowiring can't be used to inject primitive and string values. It works with reference only.
+
+//Dev-ops course
+
+
+
+
+
+//JAGJIT SINGH MATA KE BHAJAN
+
+https://www.youtube.com/watch?v=3suWQU9two8
+
+//Top udemy courses
+https://blog.teachinguide.com/how-much-do-udemy-instructors-make/
+
+//December calculstio
+18 days taken 
+18*2 = 36 kg * 48 = 1728
+
+4kg full fulcraem - 4*58= 232
+
+delivery = 60
+
+tot - 1728 + 232 + 60 = 2020
+
+
+/Oct 31 calculation
+
+1kg - 48
+
+full cream - ikg - 58
+
+Total - 31 * 2 = 62 litre
+
+extra om 3 and 10 oct = total 4 liter full cream
+
+17 oct - only full cream of 2 litre = total 6 litre full cream, but on this 2 litre normal didn't came
+
+normal milk = 62 - 2 litre = 60 Litre
+
+24 th oct - 2 litre normal extra ,
+so normal milk now = 60 + 2 = 62 litre normal
+
+total bill = 
+
+62 * 48 + 6 * 58 + 60 = 3384 / total
+
+Last month bill was 3288 /
+
+
+amitks_76@rediffmail.com
+
+My other skype account is,
+ak160310@gmail.com / Newworld@123
+
+first round was hackerrank test. its 2 hr coding test with 5 questions. one question was on collision course which i left as its time consuming. second was easy one inheritance. third was lengthy with writing apis, service and repo on spring boot (github query api). this one was lengthy and would take itself more than 2 hours. last 2 one was sqls. overall a bad experience as first and third really do not fit into 2 hour round and need more time. quite unrealistic expectations.
+
+https://www.baeldung.com/java-memory-management-interview-questions
+
+LinkedBlockingQueue
+
+India Toll Free Number +1800 120 7716,,18164485# (Core Locations)
+
+
+//furniture factory loctaion
+C:\2020\test_1107\2d5b724b-cb47-481b-ab8c-ce0cc40559ff\FurnitureFactory
+
+//Technical responsibilities ------
+Hands-on experience in Core Java
+·        Developing API - Spring boot, Spring Cloud, Spring MVC·
+        Creating UNIT test cases - JUnit, Mockito·
+        Performing load testing·
+        Must be involved in the development of RESTful web service implementations
+·       Writing simple and complex PROC SQL queries in MySQL
+        Experience in Angular will be a plus
+        Applying Design patterns to solve problems· 
+       Knowledge on Memory leakage issues and how to solve them.· 
+       Version Control - Git
+
+//Read for
+Association vs composition vs inheritance
+
+//Below is the result
+
+Welcome to MathUtils class...
+Digit [intArray=[1, 2, 3, 4]]
+
+//Very good read 
+https://howtodoinjava.com/java/basics/java-hashcode-equals-methods/
+
+http://tutorials.jenkov.com/java-util-concurrent/blockingqueue.html
+
+//Concurrent hashmap internal working
+https://howtodoinjava.com/java/multi-threading/best-practices-for-using-concurrenthashmap/
+
+//concurrenthashmap
+https://howtodoinjava.com/java/multi-threading/best-practices-for-using-concurrenthashmap/
+
+// New classroom code - { fqj i ekp }
+
+https://ask.uidai.gov.in/#/
+https://appointments.uidai.gov.in/bookappointment.aspx
+https://appointments.uidai.gov.in/EACenter.aspx
+
+//Amma incometax login
+
+AEOPS6647F / Begusarai@123
+
+http://www.scispl.com/  
+
+https://www.edulab-inc.com/en/company/
+
+·        Hands-on experience in Core Java
+
+·        Developing API - Spring boot, Spring Cloud, Spring MVC
+
+·        Creating UNIT test cases - JUnit, Mockito
+
+·        Performing load testing
+
+·        Must be involved in the development of RESTful web service implementations
+
+·        Writing simple and complex PROC SQL queries in MySQL
+
+·        Experience in Angular will be a plus
+
+·        Applying Design patterns to solve problems
+
+·        Knowledge on Memory leakage issues and how to solve them.
+
+·        Version Control - Git
+
+https://cloud.spring.io/spring-cloud-config/reference/html/
+
+//online test link
+http://n7atwu.com/testing/y1sg4
+
+
+Nagmani Kumar
+
+nagmani.a.kumar@capgemini.com
+
+APr
+May
+June
+July
+Aug
+
+https://drive.google.com/drive/folders/1owUUzxSiQ4AeHaW8U1YFveN7V2Ha-Ajm?usp=sharing
+
+
+https://drive.google.com/drive/folders/1owUUzxSiQ4AeHaW8U1YFveN7V2Ha-Ajm?usp=sharing
+
+
+
+// delete branch locally
+git branch -d localBranchName
+
+// delete branch remotely
+git push origin --delete remoteBranchName
+
+//delete feature2 branch
+
+
+git branch -d feature2
+
+git push origin --delete feature2
+
+//Create new branch remotely
+
+//i tried git branch -d storypp62 , while i was in that branch in "git bash". That gave me an error.
+//now i switched to another branch "develop_subscription". this was done with command # git checkout develop_subscription
+
+
+To create user in MySQL/MariaDB 5.7.6 and higher, use CREATE USER syntax:
+
+CREATE USER 'new_user'@'localhost' IDENTIFIED BY 'new_password';
+then to grant all access to the database (e.g. my_db), use GRANT Syntax, e.g.
+
+GRANT ALL ON my_db.* TO 'new_user'@'localhost';
+Where ALL (priv_type) can be replaced with specific privilege such as SELECT, INSERT, UPDATE, ALTER, etc.
+
+Then to reload newly assigned permissions run:
+
+FLUSH PRIVILEGES;
+
+
+{
+    "memberId" : "ak7589",
+	
+"prodList" : [
+   {
+      "productCode":"71",
+      "productName":"SUKEN_LEVEL1_PREMIUM"
+   },
+   {
+      "productCode":"31",
+      "productName":"EIKEN_LEVEL1_PREMIUM"
+   },
+   {
+      "productCode":"51",
+      "productName":"KANKEN_LEVEL1_PREMIUM"
+   }
+]
+
+}
+
+
+[
+   {
+      "id":28,
+      "Title":"Sweden"
+   },
+   {
+      "id":56,
+      "Title":"USA"
+   },
+   {
+      "id":89,
+      "Title":"England"
+   }
+]
+//Working fine --- Request JSON for the API /generateBill
+
+{
+   "memberId":"ak7589",
+   "prodList":[
+      {
+         "productCode":"71",
+         "productName":"SUKEN_LEVEL1_PREMIUM"
+      },
+      {
+         "productCode":"31",
+         "productName":"EIKEN_LEVEL1_PREMIUM"
+      },
+      {
+         "productCode":"51",
+         "productName":"KANKEN_LEVEL1_PREMIUM"
+      }
+   ]
+}
+
+//Sample Product discount database model
+https://vertabelo.com/blog/offers-deals-and-discounts-a-product-pricing-data-model/
+
+https://dba.stackexchange.com/questions/105914/modeling-discounts-product-specific-and-customer-specific-discounts
+
+
+
+

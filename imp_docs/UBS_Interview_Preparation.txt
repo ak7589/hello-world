@@ -1,0 +1,123 @@
+first round was hackerrank test. its 2 hr coding test with 5 questions. 
+
+one question was on collision course which i left as its time consuming.
+ second was easy one inheritance.
+
+ 
+ third was lengthy with writing apis, service and repo on spring boot (github query api).
+ 
+ hird was lengthy with writing apis, service and repo on spring boot (github query api).
+ 
+ 
+ this one was lengthy and would take itself more than 2 hours.
+ last 2 one was sqls. 
+ overall a bad experience as first and third really do not fit into 2 hour round and need more time. quite unrealistic expectations.
+
+
+write github query api (6 functions)  
+
+//////////////////Another set of questions for UBS
+First They conducted one Written test :
+Write a program to find minimum element from unsorted array.
+Count ways to reach the nth stair using step 1, or 2 or both
+For ex :If we want to reach at 4th Step:
+No of ways would be :
+1+1+1+1
+2+2
+1+1+2
+2+1+1
+1+2+1
+
+Java Program to Print sequence of numbers using threads
+Data Strucutres
+Core Java -Generics,Hash Map internal working,Collection API,Exception Handling
+
+///////////////////////Third set of questions //////////////////////////////////////////
+
+How would you handle memory issues, Spring basic, database indexes, Unix commands, questions on multithreading, concurrency etc  
+
+
+///////////////////////////Fourth set of questions /////////////////////////////////////
+
+Thread based interview qns, programs, spring, Rest. Actually everything written on the resume. Will go in deep of it  
+
+
+/////////////////////////////Fifth set of questions/////////////////////////////////
+
+1. what are 4 pillars of OOPS
+2. what is abstraction
+3. sql query to find employee strength of all the departments given two tables 1. department 2. employee  
+
+
+/////////////////////////////Sixth set of questions///////////////////////////////////////////////////
+
+basic Java questions, generics, Java 8 features
+maven, find mid of a linked list 
+implementation of LRU, how would you maintain version of API  
+
+
+//Below is the blog of collision point problem
+https://www.geeksforgeeks.org/first-collision-point-two-series/
+
+{
+        "id": 0,
+        "firstName": "Amit",
+        "lastName": "Sinha",
+        "email": "amit.sinha@gmail.com"
+}
+	
+
+	//UBS interview question website
+	https://www.javacodemonk.com/ubs-investment-banking-top-java-interview-questions-73ca927a
+	
+	Talk about concurrency utils i.e. Atomic package?
+
+What is a volatile keyword?
+
+What is a future? How is it used in ExecutorService?
+
+Design your own custom Threadpool executor with minimal functionality
+
+What do you understand by Java Memory Model
+
+Why is AtomicInteger class better than a synchronized counter class? What is CAS?
+
+What is difference between ExecutorService and ForkJoinPool?
+
+Explain Producer Consumer Problem using Blocking Queue in Java
+
+How will you implement your own thread-safe blocking queue in Java?
+
+
+What is decorator design pattern?
+
+What is Singleton Design Pattern, how will you make it thread-safe?
+
+
+//Also look at the below concepts -
+
+Object class(functions in it)
+Constructor
+String,String buffer,Stringbuilder
+Serialization, Deserialization
+Inheritance
+Static block
+Wrapper class
+Operators in java
+Collections
+Exception handling
+
+How would you check, on a Unix system, if process is alive/running on the machine?
+
+What are benefits of using ConcurrentHashMap over synchronized HashMap?
+
+What is the Fibonacci sequence and how can you program that using recursion?
+
+Explain to me what Composite Pattern is, using File System sources as an example.
+
+//preparing from below url's
+https://javaconceptoftheday.com/java-array-interview-programs/
+
+//File handling questions
+http://javasearch.buggybread.com/InterviewQuestions/questionSearch.php?searchOption=label&keyword=File%20handling
+

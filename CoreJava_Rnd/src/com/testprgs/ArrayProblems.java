@@ -224,6 +224,7 @@ public class ArrayProblems {
 		//Loop to sort the array
 		int temp =-1;
 		
+		//This is basically a bubble sort
 		for(int i=0; i< arrayInt.length; i++) {
 			
 			for(int j = i+1; j< arrayInt.length; j++) {

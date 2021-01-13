@@ -1,0 +1,71 @@
+What is OOP advantage?
+
+Functional programming.
+
+A problem which can be solved by fp but no by oop.
+
+How to write a cache in our service ? map key=cityName, value
+
+producer-consumer example
+
+Never got chance to work in multi-threaded environments.
+
+spring-boot threads -
+
+map vs concurrent hm -
+
+Break a big array into children array of size 2
+
+Theory about ci/cd, unit integration testing.
+
+Sorting a 5g file in 3gb ram OS. - merge sort
+
+When should we use Jetty or WebLogic and not the Tomcat?
+
+JDK, JRE, JVM, JNI difference.
+
+How java is platform independent.
+
+Advantages of using bytecode
+
+Write a memory leak
+
+Read student record from a file and convert first char of first and last name to upper case and save into a DB, (Write placeholder methods for file reading or DB saving).
+
+Downloading 3 files and then only proceeding for further work: Using countdown latch.
+
+Usage of Cyclic Barrier
+
+JDK, JVM, JRE difference
+
+How java achieves platform independence
+
+Usage of bytecode in java world
+
+Abstraction, Encapsulation, Aggregation, Composition
+
+How composition is achieved
+
+How multiple threads communicate among themselves
+
+How to give priority to consumers in producer/consumers scenario
+
+How to create immutable objects
+
+Difference in POST/PUT/PATCH
+
+How to setup basic rest endpoint using spring boot
+
+Aspect Oriented Programming.
+
+When to use joins in sql
+
+When we use callback the in which thread context they are called
+
+Complexity of Binary search
+
+Designing a Batch Processing Component – Code was not working fine and it was not well written or properly following OOP principles.
+
+Creating a memory leak in a program
+
+Why should we override hashCode and equals methods
