@@ -13,7 +13,7 @@ import com.edulab.subscription.entity.Orders;
 import com.edulab.subscription.entity.Product;
 import com.edulab.subscription.entity.ProductServices;
 import com.edulab.subscription.repos.OrderDetailRepository;
-import com.edulab.subscription.repos.OrderRepository;
+import com.edulab.subscription.repos.OrdersRepository;
 import com.edulab.subscription.repos.ProductRepository;
 
 @SpringBootTest
@@ -23,7 +23,7 @@ class SubscriptionApplicationTests {
 	ProductRepository productRepository;
 	
 	@Autowired
-	OrderRepository orderRepository;
+	OrdersRepository orderRepository;
 	
 	@Autowired
 	OrderDetailRepository orderDetailRepository;

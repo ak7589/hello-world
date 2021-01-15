@@ -1,6 +1,7 @@
 package com.edulab.subscription.entity;
 
 import java.io.Serializable;
+import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 import javax.persistence.CascadeType;
@@ -14,53 +15,50 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "order_detail")
-public class OrderDetail implements Serializable {
+@Table(name = "bill_detail")
+public class BillDetail implements Serializable {
 	
 	private static final long serialVersionUID = 1L;
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name="id")
-	private long orderDetailId;
+	private long billDetailId;
 	
-	//offer_id foreign key
+	//bill_id foreign key
 	@ManyToOne(cascade=CascadeType.ALL)
-	@JoinColumn(name="order_id")
-	private Orders order;
+	@JoinColumn(name="bill_id")
+	private Bills bills;
 	
 	@Column(name="product_id")
 	private long productId;
+	
+	@Column(name="price_charged")
+	private BigDecimal priceCharged;
 	
 	@Column(name="transaction_id")
 	private String transactionId;
 	
 	@Column(name="subscription_YN")
 	private char subscriptionFlag;
-
-	@Column(name="active_YN")
-	private char activeFlag;
 	
-	@Column(name = "start_date", columnDefinition = "TIMESTAMP")
-	private LocalDateTime  startDate;
-	
-	@Column(name = "end_date", columnDefinition = "TIMESTAMP")
-	private LocalDateTime  endDate;
+	@Column(name = "product_expiry_date", columnDefinition = "TIMESTAMP")
+	private LocalDateTime  productExpiryDate;
 
-	public long getOrderDetailId() {
-		return orderDetailId;
+	public long getBillDetailId() {
+		return billDetailId;
 	}
 
-	public void setOrderDetailId(long orderDetailId) {
-		this.orderDetailId = orderDetailId;
+	public void setBillDetailId(long billDetailId) {
+		this.billDetailId = billDetailId;
 	}
 
-	public Orders getOrder() {
-		return order;
+	public Bills getBills() {
+		return bills;
 	}
 
-	public void setOrder(Orders order) {
-		this.order = order;
+	public void setBills(Bills bills) {
+		this.bills = bills;
 	}
 
 	public long getProductId() {
@@ -69,6 +67,14 @@ public class OrderDetail implements Serializable {
 
 	public void setProductId(long productId) {
 		this.productId = productId;
+	}
+
+	public BigDecimal getPriceCharged() {
+		return priceCharged;
+	}
+
+	public void setPriceCharged(BigDecimal priceCharged) {
+		this.priceCharged = priceCharged;
 	}
 
 	public String getTransactionId() {
@@ -87,29 +93,13 @@ public class OrderDetail implements Serializable {
 		this.subscriptionFlag = subscriptionFlag;
 	}
 
-	public char getActiveFlag() {
-		return activeFlag;
+	public LocalDateTime getProductExpiryDate() {
+		return productExpiryDate;
 	}
 
-	public void setActiveFlag(char activeFlag) {
-		this.activeFlag = activeFlag;
-	}
-
-	public LocalDateTime getStartDate() {
-		return startDate;
-	}
-
-	public void setStartDate(LocalDateTime startDate) {
-		this.startDate = startDate;
-	}
-
-	public LocalDateTime getEndDate() {
-		return endDate;
-	}
-
-	public void setEndDate(LocalDateTime endDate) {
-		this.endDate = endDate;
+	public void setProductExpiryDate(LocalDateTime productExpiryDate) {
+		this.productExpiryDate = productExpiryDate;
 	}
 	
-
+	
 }

@@ -24,14 +24,11 @@ public class Orders implements Serializable {
 	@Column(name="member_id")
 	private String memberId;
 	
-	@Column(name="active")
-	private char active;
+	@Column(name="order_status")
+	private String orderStatus;
 	
-	@Column(name = "start_date", columnDefinition = "TIMESTAMP")
-	private LocalDateTime  startDate;
-	
-	@Column(name = "end_date", columnDefinition = "TIMESTAMP")
-	private LocalDateTime  endDate;
+	@Column(name = "order_date", columnDefinition = "TIMESTAMP")
+	private LocalDateTime  orderDate;
 
 	public long getOrderId() {
 		return orderId;
@@ -49,27 +46,21 @@ public class Orders implements Serializable {
 		this.memberId = memberId;
 	}
 
-	public char getActive() {
-		return active;
+	public String getOrderStatus() {
+		return orderStatus;
 	}
 
-	public void setActive(char active) {
-		this.active = active;
+	public void setOrderStatus(String orderStatus) {
+		this.orderStatus = orderStatus;
 	}
 
-	public LocalDateTime getStartDate() {
-		return startDate;
+	public LocalDateTime getOrderDate() {
+		return orderDate;
 	}
 
-	public void setStartDate(LocalDateTime startDate) {
-		this.startDate = startDate;
+	public void setOrderDate(LocalDateTime orderDate) {
+		this.orderDate = orderDate;
 	}
 
-	public LocalDateTime getEndDate() {
-		return endDate;
-	}
-
-	public void setEndDate(LocalDateTime endDate) {
-		this.endDate = endDate;
-	}
+	
 }
