@@ -1,12 +1,13 @@
 package com.edulab.subscription.service;
 
-import com.edulab.subscription.dto.Member;
-import com.edulab.subscription.dto.PriceResponse;
+import java.util.List;
+
 import com.edulab.subscription.dto.ProdSelection;
+import com.edulab.subscription.entity.BillDetail;
 
 
 public interface BillService {
 	
-	public void createOrder(ProdSelection productSelection);
+	public List<BillDetail>  createOrderAndBill(ProdSelection productSelection);
 	
 }

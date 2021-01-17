@@ -39,4 +39,6 @@ commit
 
 https://stackoverflow.com/questions/21841353/mysql-delete-under-safe-mode
 
-
+//Working delete command
+DELETE FROM `subscription`.`orders` WHERE `id`='3';
+DELETE FROM `subscription`.`orders` WHERE `id`='4';

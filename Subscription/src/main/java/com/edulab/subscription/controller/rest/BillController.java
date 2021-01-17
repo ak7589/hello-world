@@ -18,6 +18,7 @@ import com.edulab.subscription.dto.Member;
 import com.edulab.subscription.dto.PriceResponse;
 import com.edulab.subscription.dto.ProdSelection;
 import com.edulab.subscription.dto.ProductResponse;
+import com.edulab.subscription.entity.BillDetail;
 import com.edulab.subscription.exception.ResourceNotFoundException;
 import com.edulab.subscription.exception.SubscriptionException;
 import com.edulab.subscription.service.BillServiceImpl;
@@ -44,7 +45,7 @@ public class BillController {
 
 	
 	@PostMapping("/generatebill")
-	public ResponseEntity<String> generateBill(@RequestBody ProdSelection productSelection) throws Exception {
+	public ResponseEntity<List<BillDetail>> generateBill(@RequestBody ProdSelection productSelection) throws Exception {
 		
 		try {
 			
@@ -54,9 +55,9 @@ public class BillController {
 			
 			//return new ResponseEntity<PriceResponse>(priceResponse,HttpStatus.OK);
 			
-			billServiceImpl.createOrder(productSelection);
+			List<BillDetail> billDetailList = billServiceImpl.createOrderAndBill(productSelection);
 			
-			return new ResponseEntity<String>("generateBill in BillController",HttpStatus.OK);
+			return new ResponseEntity<List<BillDetail>>(billDetailList,HttpStatus.OK);
 			
 			
 		} catch (Exception e) {

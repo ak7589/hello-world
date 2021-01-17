@@ -24,12 +24,12 @@ public class Bills implements Serializable {
 	
 	// offer_id foreign key
 	@Column(name="order_id")
-	private int order_id;
+	private long order_id;
 	
 	@Column(name="member_id")
 	private String memberId;
 	
-	@Column(name="member_id")
+	@Column(name="amount")
 	private BigDecimal amount;
 	
 	@Column(name="status")
@@ -59,12 +59,12 @@ public class Bills implements Serializable {
 	}
 
 
-	public int getOrder_id() {
+	public long getOrder_id() {
 		return order_id;
 	}
 
 
-	public void setOrder_id(int order_id) {
+	public void setOrder_id(long order_id) {
 		this.order_id = order_id;
 	}
 
